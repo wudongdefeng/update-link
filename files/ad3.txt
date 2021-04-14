@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RKNTDIN6JWLKvMez7YjuRQ
+! Checksum: 56zPGCj6LPAv9x8B2X2kPA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202104141625
-! Last Modified: 2021年04月14日 16:25
+! Version: 202104150030
+! Last Modified: 2021年04月15日 00:30
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -125,6 +125,7 @@ youle55.com
 ! EasyList China
 !-----------------------General advert blocking filters-----------------------!
 -1688-wp-media/ads/
+/5ixcmbwj/js/ad.js
 -880-80-4.jpg
 -90mh-gg.
 .bid/ads/
@@ -1318,6 +1319,7 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.wrap + #btmBox
 ##A[href*="/hth104.com/"]
 ##A[href*="/170hth.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
@@ -8759,8 +8761,16 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||aipp99.com/haose/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+weishangshijie.cn###wad_left
+weishangshijie.cn###wad_right
+weishangshijie.cn##.head_0905
+weishangshijie.cn##.head_imgwl
+weishangshijie.cn##.w_bzb_1
+weishangshijie.cn##DIV[class^="ad_"]
+weishangshijie.cn##DIV[class^="news_a"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -10147,8 +10157,6 @@ jstv.com###vplayad
 160.com###w-btn-advertisement
 zqzq.com###wAdTop1
 zqzq.com###wAdTop2
-weishangshijie.com###wad_left
-weishangshijie.com###wad_right
 21ic.com###warp_con
 chineseinla.com###weixin_ads2
 fububu.com###wendibu
@@ -10594,7 +10602,6 @@ gamme.com.tw##.adread
 appinn.com##.ads-m
 360.cn##.ads-pic
 shejidaren.com##.ads-post-foot
-weishangshijie.com##.ads228_1_r
 5icool.org##.ads300_show
 eeyy.cc##.ads650
 cntronics.com##.ads970-90
@@ -11582,7 +11589,6 @@ winning11cn.com##.hdc > div > div[align="center"]
 mtrend.cn##.hdlist
 ali213.net##.head-left
 hkepc.com##.headBanner
-weishangshijie.com##.head_0905
 jmw.com.cn##.head_1b
 jmw.com.cn##.head_3
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.head_middle > div[class]:first-child
@@ -12128,8 +12134,6 @@ chinaz.com##.newsMainBox-textad
 afzhan.com##.newsRightAdv
 ifeng.com##.news_ADbox
 m.baidu.com##.news_ad
-weishangshijie.com##.news_ads1200
-weishangshijie.com##.news_ads_1028
 jia360.com##.news_adv:nth-child(3)
 aguitar.cn##.news_b
 zhcw.com##.news_blanck
@@ -12148,7 +12152,6 @@ gamersky.com##.ngg_down
 chongdiantou.com##.nice-sales
 mamecn.com##.njjGsxzLeft > dl > .cont1
 mamecn.com##.njjGsxzRight
-weishangshijie.com##.nleft_ads
 dyhjw.com##.nn_link
 wallstreetcn.com##.node-main-ad
 zhicheng.com##.normal-banner
@@ -42476,6 +42479,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=extratorrent.cd|sky
 @@||scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_theplatform.js
+@@||scorecardresearch.com/internal-c2/plugins/streamingtag_plugin_jwplayer.js
 @@||screen9.com/players/*/amber-google-analytics.esm.js$script,domain=api.screen9.com
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
