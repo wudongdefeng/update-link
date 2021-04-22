@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: FXpBJJ7XIKEl4d3N2HJJGA
+! Checksum: nVPU2sZmdufxteHqGyQO3A
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202104220033
-! Last Modified: 2021年04月22日 00:33
+! Version: 202104221621
+! Last Modified: 2021年04月22日 16:21
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -37,12 +37,13 @@ v.qq.com,sports.qq.com##+js(json-prune,ad,vinfo)
 v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 @@||video.qq.com/fcgi-bin/
 ||mark.l.qq.com/fcgi-bin/get_video_mark_all?idlist=
-||adss.video.qq.com/
+adss.video.qq.com
 ||gtimg.com/qqlive/
-||miaozhen.com/
-||reachmax.cn/
-||tencentmind.com/
-||xtgreat.com/
+miaozhen.com
+reachmax.cn
+scorecardresearch.com
+tencentmind.com
+xtgreat.com
 bilibili.com##.gg-floor-module,#slide_ad,#slide_ad+a[data-target-url]
 ||api.bilibili.com/x/web-show/res/loc?pf=$~script
 ||hdslb.com/bfs/sycp/creative_img/$image
@@ -100,9 +101,10 @@ huya.com###hy-ad,#hy-ab,#huya-ab
 */preroll/$media,domain=91porn.com
 ||91p20.space^
 ||waust.at^
+dililitv.cc##+js(aeld,dblclick,dp.fullScreen.request)
 ||www.dililitv.cc/*.php?ad=$script
 js.dilidd.com
-dililitv.cc,hmtv.me,imeiju.io,zxfun.net##+js(acis,Object.defineProperty,location.href)
+dililitv.cc,hmtv.me,imeiju.io##+js(acis,Object.defineProperty,location.href)
 dyjihe.com##.tempWrap
 haitur.com,haicaoys.com##.dplayer-web-fullscreen-fix .float-box
 haitur.com##.container:style(max-width:90%!important;width:90%!important)
@@ -31446,6 +31448,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cod.bitrec.com^
 ||coinbase.com/assets/application-*.js$third-party
 ||collect.*.miui.com^
+||collect.igodigital.com^
 ||collect.rewardstyle.com^
 ||collect.usefathom.com^
 ||collector-*.elb.amazonaws.com^$image,third-party
