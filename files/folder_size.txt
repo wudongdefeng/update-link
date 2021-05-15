@@ -1,1 +1,1 @@
-2021-05-14 23:50:18.586199 ==>> The size of all files in the folder ../files = 5.35 MB
+2021-05-15 11:43:31.626712 ==>> The size of all files in the folder ../files = 5.35 MB
