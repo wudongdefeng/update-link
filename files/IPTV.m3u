@@ -347,6 +347,9 @@ https://tv.lanjingfm.com/cctbn/hainan.m3u8
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/zgjt.png" group-title="中国卫视", 中国交通重庆
 https://tv.lanjingfm.com/cctbn/chongqing.m3u8
 
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="noimage.png" group-title="中国卫视", 清华大学电视台
+http://live.cic.tsinghua.edu.cn/hls/tsinghuatv.m3u8
+
 #EXTINF:-1 tvg-id="1872" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" group-title="4K", 北京冬奥纪实 4K HDR 测试
 http://221.179.217.94/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226563/1.m3u8
 
@@ -582,6 +585,9 @@ http://113.255.161.76:9981/stream/channelid/489782037
 http://livetv.dnsfor.me:80/channel.10.m3u8
 
 #EXTINF:-1 tvg-id="WXX.HK" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-news.jpg" group-title="香港", 無綫新聞台
+http://www.chahaoquan.com/wz/epg/tvb.php?id=1
+
+#EXTINF:-1 tvg-id="WXX.HK" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-news.jpg" group-title="香港", 無綫新聞台
 http://61.238.6.49:8001/bysid/83
 
 #EXTINF:-1 tvg-id="WXC.HK" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-finance.jpg" group-title="香港", 無綫財經·資訊台
@@ -591,16 +597,16 @@ http://113.255.161.76:9981/stream/channelid/1243767692
 http://livetv.dnsfor.me:80/channel.11.m3u8
 
 #EXTINF:-1 tvg-id="WXC.HK" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-finance.jpg" group-title="香港", 無綫財經·資訊台
+http://www.chahaoquan.com/wz/epg/tvb.php?id=2
+
+#EXTINF:-1 tvg-id="WXC.HK" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-finance.jpg" group-title="香港", 無綫財經·資訊台
 http://61.238.6.49:8001/bysid/85
 
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-news.jpg" group-title="香港", 無綫新聞 newsevent1
-http://111.229.84.232/yulin/tvb.php?id=3
+http://www.chahaoquan.com/wz/epg/tvb.php?id=3
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="noimage.png" group-title="香港", ★TVB經典台
-http://sl.tmtv.me/20201226/ubtl.php?cid=1083
-
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="noimage.png" group-title="香港", ★TVB華麗台
-http://sl.tmtv.me/20201226/ubtl.php?cid=1084
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-news.jpg" group-title="香港", 無綫新聞 newsevent2
+http://www.chahaoquan.com/wz/epg/tvb.php?id=4
 
 #EXTINF:-1 tvg-id="V96.HK" tvg-logo="http://www.tvyan.com/uploads/dianshi/viutv6.jpg" group-title="香港", ViuTVsix
 http://113.255.161.76:9981/stream/channelid/1678030550
@@ -618,7 +624,7 @@ http://61.238.6.49:8000/bysid/99
 http://livetv.dnsfor.me:80/channel.6.m3u8
 
 #EXTINF:-1 tvg-id="YXW.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLENewsChannelHD.png" group-title="香港", 有線新聞台
-http://livetv.dnsfor.me:80/channel.5.m3u8
+http://93.190.139.36:8278/streams/d/hkcnews_twn/playlist.m3u8
 
 #EXTINF:-1 tvg-id="YZB.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLELiveNewsChannel.png" group-title="香港", 有線直播新聞台
 http://teslagram.com/live/channel_110.m3u8
