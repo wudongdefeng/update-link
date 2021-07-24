@@ -42,7 +42,7 @@ http://gzvod.hntv.tv/live/tljul10.m3u8?txSecret=794d5ea6d04413719673cbbd0fc79f16
 http://plmedia.live.weibo.com:80/alicdn/4660943680966268.flv
 
 #EXTINF:-1 group-title="中国央视",河南卫视 高清
-http://39.135.138.8:6610/PLTV/88888888/224/3221225611/2/index.m3u8?fmt=ts2hls#https://www.navchina.cf/IPTV/hn.php?id=hnws#https://www.navchina.cf/IPTV/zhengzhou.php?id=hnws
+http://39.135.138.8:6610/PLTV/88888888/224/3221225611/2/index.m3u8?fmt=ts2hls
 
 #EXTINF:-1 group-title="中国央视",河南新闻
 https://www.navchina.cf/IPTV/hn.php?id=xwpd
@@ -590,8 +590,6 @@ https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/index_56_a-p.m3u8
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/HKIBC.png" group-title="香港", 香港國際財經台
 https://cdn.hkdtmb.com/hls/76/index.m3u8
 
-http://uc6.i-cable.com:80/liveJoemud_ts/_definst_/4-6761c906-1624850732-1624862912-4e5c4318a5000b00a55efb669d5cc7a9-8d93a27dc2d450f_897-03/opentvhd002_h.live/playlist.m3u8
-
 #EXTINF:-1 tvg-id="KAI.HK" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/hongkongkai.png" group-title="香港", 香港開電視
 http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8
 
@@ -618,6 +616,7 @@ http://185.207.176.189:8080/channels/tv-82/playlist.m3u8
 
 #EXTINF:-1 tvg-id="XHP.HK" tvg-logo="https://plus.tvbanywhere.com/img/logo_tvb_xing_he_channel.png" group-title="香港", TVB 星河頻道
 http://sl.tmtv.me/20201226/ubtl.php?cid=1079
+
 #EXTINF:-1 tvg-id="83" tvg-logo="http://www.tvyan.com/uploads/dianshi/tvb-news.jpg" group-title="香港", 無綫新聞台
 https://cdn.hkdtmb.com/hls/83/index.m3u8
 
@@ -667,28 +666,34 @@ https://cdn.hkdtmb.com/hls/99/index.m3u8
 http://185.207.176.189:8080/channels/tv-99/playlist.m3u8
 
 #EXTINF:-1 tvg-id="YCJ.HK" tvg-logo="http://utvhk.com/maint/images/channel/be75ddf0144b7fccdd03bf8016a61f64.png" group-title="香港", 有線財經資訊台
-http://livetv.dnsfor.me:80/channel.6.m3u8
+https://api.leonardpark.dev/live/icable/108
 
 #EXTINF:-1 tvg-id="YXW.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLENewsChannelHD.png" group-title="香港", 有線新聞台
-http://198.16.106.62:8278/streams/d/hkcnews_twn/playlist.m3u8
+https://api.leonardpark.dev/live/icable/109
 
 #EXTINF:-1 tvg-id="YZB.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLELiveNewsChannel.png" group-title="香港", 有線直播新聞台
-http://teslagram.com/live/channel_110.m3u8
+https://api.leonardpark.dev/live/icable/110
 
-#EXTINF:-1 tvg-id="YYL.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLEFamilyEntertainmentChannelHD.png" group-title="香港", 有線綜合娛樂台
+#EXTINF:-1 tvg-id="YYL.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLEFamilyEntertainmentChannelHD.png" group-title="香港", ★有線綜合娛樂台
 http://livetv.dnsfor.me:80/channel.7.m3u8
 
-#EXTINF:-1 tvg-id="603 高清603台" tvg-logo="https://cdn.jsdelivr.net/gh/supzhang/epg/tb1/gt/hongkong603.png" group-title="香港", ★有線高清603台
-http://aliplay.17zuoye.cn/live/6c4106f99cf503fef5682682ba76b990.m3u8
+#EXTINF:-1 tvg-id="602 Sports Plus 1" tvg-logo="https://ftp.i-cable.com/iott_images/601_landscape.png" group-title="香港", 有線奧運601
+https://api.leonardpark.dev/live/icable/601
+
+#EXTINF:-1 tvg-id="602 Sports Plus 1" tvg-logo="https://ftp.i-cable.com/iott_images/602_landscape.png" group-title="香港", 有線奧運602
+https://api.leonardpark.dev/live/icable/602
+
+#EXTINF:-1 tvg-id="603 高清603台" tvg-logo="https://cdn.jsdelivr.net/gh/supzhang/epg/tb1/gt/hongkong603.png" group-title="香港", 有線高清603台
+https://api.leonardpark.dev/live/icable/603
+
+#EXTINF:-1 tvg-id="604 Sports Plus 2" tvg-logo="https://ftp.i-cable.com/iott_images/604_landscape.png" group-title="香港", 有線奧運604
+https://api.leonardpark.dev/live/icable/604
+
+#EXTINF:-1 tvg-id=" " tvg-logo="https://ftp.i-cable.com/iott_images/605_landscape.png" group-title="香港", 有線奧運605
+https://api.leonardpark.dev/live/icable/605
 
 #EXTINF:-1 tvg-id="618.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLEChannel18.png" group-title="香港", 有線18台
 rtmp://59.124.75.156/sat/hk042
-
-#EXTINF:-1 tvg-id="602 Sports Plus 1" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/05/I-CABLE_Sports_Channel.png" group-title="香港", ★有線Sports Plus 1
-http://sl.tmtv.me/20201226/ubtl.php?cid=401
-
-#EXTINF:-1 tvg-id="604 Sports Plus 2" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/0/05/I-CABLE_Sports_Channel.png" group-title="香港", ★有線Sports Plus 2
-http://sl.tmtv.me/20201226/ubtl.php?cid=356
 
 #EXTINF:-1 tvg-id="618.HK" tvg-logo="http://www.nettvplus.live/uploads/20/1-200319145514C3.jpg" group-title="香港", ★有線電影台 HD
 http://aliplay.17zuoye.cn/live/4a2d43c8da89c589b927b54a41543af6.m3u8
