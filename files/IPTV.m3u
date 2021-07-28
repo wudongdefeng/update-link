@@ -59,7 +59,6 @@ https://www.navchina.cf/IPTV/zhengzhou.php?id=zzxwzh
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="noimage.png" group-title="中国央视", 郑州都市生活
 https://www.navchina.cf/IPTV/zhengzhou.php?id=zzdssh
 
-
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/广东体育.png" group-title="中国央视", 广东体育 高清
 http://api.phoves.com.cn/iptv/gudou3.php?id=gdsportsHD_7000&/PLTV/hls.smil.m3u8
 
@@ -588,19 +587,16 @@ http://185.207.176.189:8080/channels/tv-32/playlist.m3u8
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/RTHK33.png" group-title="香港", 港台電視33
 http://185.207.176.189:8080/channels/tv-33/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/RTHK33.png" group-title="香港", 港台電視33
-https://cdn.hkdtmb.com/hls/33/index.m3u8
-
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/RTHK.png" group-title="香港", 香港電台視像新聞直播
 https://rthkcnews-lh.akamaihd.net/i/rthknews_1@312607/index_190000011_av-b.m3u8
 
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/RTHKPTHRadio.png" group-title="香港", 香港電台普通話台
 https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/index_56_a-p.m3u8
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/HKIBC.png" group-title="香港", 香港國際財經台
+#EXTINF:-1 tvg-id="02 香港國際財經台 *" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/HKIBC.png" group-title="香港", 香港國際財經台
 https://cdn.hkdtmb.com/hls/76/index.m3u8
 
-#EXTINF:-1 tvg-id="KAI.HK" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/hongkongkai.png" group-title="香港", 香港開電視
+#EXTINF:-1 tvg-id="01 香港開電視 *" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/hongkongkai.png" group-title="香港", 香港開電視
 https://cdn.hkdtmb.com/hls/77/index.m3u8
 
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/BSTV.png" group-title="香港", 耀才财经
@@ -642,37 +638,37 @@ http://185.207.176.189:8080/channels/tv-96/playlist.m3u8
 #EXTINF:-1 tvg-id="99" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/viutv.png" group-title="香港", ViuTV
 http://185.207.176.189:8080/channels/tv-99/playlist.m3u8
 
-#EXTINF:-1 tvg-id="YCJ.HK" tvg-logo="http://utvhk.com/maint/images/channel/be75ddf0144b7fccdd03bf8016a61f64.png" group-title="香港", 有線財經資訊台
+#EXTINF:-1 tvg-id="108 財經資訊台 *" tvg-logo="http://utvhk.com/maint/images/channel/be75ddf0144b7fccdd03bf8016a61f64.png" group-title="香港", 有線財經資訊台
 https://api.leonardpark.dev/live/icable/108
 
-#EXTINF:-1 tvg-id="YXW.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLENewsChannelHD.png" group-title="香港", 有線新聞台
+#EXTINF:-1 tvg-id="109 新聞台 *" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLENewsChannelHD.png" group-title="香港", 有線新聞台
 https://api.leonardpark.dev/live/icable/109
 
-#EXTINF:-1 tvg-id="YZB.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLELiveNewsChannel.png" group-title="香港", 有線直播新聞台
+#EXTINF:-1 tvg-id="110 直播新聞台 *" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLELiveNewsChannel.png" group-title="香港", 有線直播新聞台
 https://api.leonardpark.dev/live/icable/110
 
-#EXTINF:-1 tvg-id="YYL.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLEFamilyEntertainmentChannelHD.png" group-title="香港", ★有線綜合娛樂台
+#EXTINF:-1 tvg-id="301 綜合娛樂台 *" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLEFamilyEntertainmentChannelHD.png" group-title="香港", ★有線綜合娛樂台
 http://livetv.dnsfor.me:80/channel.7.m3u8
 
-#EXTINF:-1 tvg-id="602 Sports Plus 1" tvg-logo="https://ftp.i-cable.com/iott_images/601_landscape.png" group-title="香港", 有線奧運601
+#EXTINF:-1 tvg-id="601 高清體育台 *" tvg-logo="https://ftp.i-cable.com/iott_images/601_landscape.png" group-title="香港", 有線奧運601
 https://www.navchina.cf/IPTV/icable.php?id=61
 
-#EXTINF:-1 tvg-id="602 Sports Plus 1" tvg-logo="https://ftp.i-cable.com/iott_images/602_landscape.png" group-title="香港", 有線奧運602
+#EXTINF:-1 tvg-id="602 Sports Plus 1 *" tvg-logo="https://ftp.i-cable.com/iott_images/602_landscape.png" group-title="香港", 有線奧運602
 https://www.navchina.cf/IPTV/icable.php?id=62
 
-#EXTINF:-1 tvg-id="603 高清603台" tvg-logo="https://cdn.jsdelivr.net/gh/supzhang/epg/tb1/gt/hongkong603.png" group-title="香港", 有線高清603台
+#EXTINF:-1 tvg-id="603 高清603台 *" tvg-logo="https://cdn.jsdelivr.net/gh/supzhang/epg/tb1/gt/hongkong603.png" group-title="香港", 有線高清603台
 https://www.navchina.cf/IPTV/icable.php?id=63
 
-#EXTINF:-1 tvg-id="604 Sports Plus 2" tvg-logo="https://ftp.i-cable.com/iott_images/604_landscape.png" group-title="香港", 有線奧運604
+#EXTINF:-1 tvg-id="604 Sports Plus 2 *" tvg-logo="https://ftp.i-cable.com/iott_images/604_landscape.png" group-title="香港", 有線奧運604
 https://www.navchina.cf/IPTV/icable.php?id=64
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://ftp.i-cable.com/iott_images/605_landscape.png" group-title="香港", 有線奧運605
+#EXTINF:-1 tvg-id="605 Sports Plus 3 *" tvg-logo="https://ftp.i-cable.com/iott_images/605_landscape.png" group-title="香港", 有線奧運605
 https://www.navchina.cf/IPTV/icable.php?id=65
 
-#EXTINF:-1 tvg-id="618.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLEChannel18.png" group-title="香港", 有線18台
+#EXTINF:-1 tvg-id="618 有線18台" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLEChannel18.png" group-title="香港", 有線18台
 rtmp://161.202.204.248:1935/sat/hk042
 
-#EXTINF:-1 tvg-id="618.HK" tvg-logo="http://www.nettvplus.live/uploads/20/1-200319145514C3.jpg" group-title="香港", ★有線電影台 HD
+#EXTINF:-1 tvg-id="201 有線電影台 *" tvg-logo="http://www.nettvplus.live/uploads/20/1-200319145514C3.jpg" group-title="香港", ★有線電影台 HD
 http://aliplay.17zuoye.cn/live/4a2d43c8da89c589b927b54a41543af6.m3u8
 
 #EXTINF:-1 tvg-id="FHW.CN" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="香港", 鳳凰衛視中文台
@@ -690,7 +686,7 @@ rtmp://58.200.131.2:1935/livetv/fhdy
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://asia.nowbaogumovies.com/baogucms/cmsfrontend/img/icons/baogu_logo_head.png" group-title="香港", now爆谷台
 http://45.11.92.252/luck/940049/26
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/nowdirect.png" group-title="香港", now直播台
+#EXTINF:-1 tvg-id="中國 - Now直播台" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/nowdirect.png" group-title="香港", now直播台
 http://livetv.dnsfor.me:80/channel.3.m3u8
 
 #EXTINF:-1 tvg-id="NOW.HK" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/nownews.png" group-title="香港", now新聞台
@@ -801,10 +797,10 @@ http://185.207.176.189:8080/channels/tw-100/playlist.m3u8
 #EXTINF:-1 tvg-id="7176" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视新闻.png" group-title="台灣", 中視新聞 HD
 http://seb.sason.top/sc/zsxw_fhd.m3u8
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" group-title="台灣", #EXTINF:-1 tvg-id=" " tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" 中視經典台
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" group-title="台灣", 中視經典台
 http://185.207.176.189:8080/channels/tw-102/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" group-title="台灣", #EXTINF:-1 tvg-id=" " tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" 中視菁采台
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" group-title="台灣", 中視菁采台
 http://185.207.176.189:8080/channels/tw-103/playlist.m3u8
 
 #EXTINF:-1 tvg-id="HST.TW" tvg-logo="https://www.cts.com.tw/images/2018cts/cts-logo.png" group-title="台灣", 華視 HD
