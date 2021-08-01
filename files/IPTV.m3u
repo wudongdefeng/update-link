@@ -785,10 +785,22 @@ http://198.16.106.62:8278/streams/d/elta_olymp2/playlist.m3u8
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/522_pic_1624000234.png" group-title="台灣", ELTA奧運3台
 http://198.16.106.62:8278/streams/d/elta_olymp3/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ZST.TW" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/101_a4004c6c910cbec6345fa2015981ebd7.png" group-title="台灣", ELTA體育1台 4K
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/520_pic_1624000146.png" group-title="台灣", ELTA奧運1台
+rtmp://59.124.75.153/sat/md011
+
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/521_pic_1624000177.png" group-title="台灣", ELTA奧運2台
+rtmp://59.124.75.153/sat/md021
+
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/522_pic_1624000234.png" group-title="台灣", ELTA奧運3台
+rtmp://59.124.75.153/sat/md031
+
+#EXTINF:-1 tvg-id="7212" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/101_a4004c6c910cbec6345fa2015981ebd7.png" group-title="台灣", ELTA體育1台 4K
 rtmp://59.124.75.153/sat/md041
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/110_b229b1679884f5fc34980fbbe48d7cc9.png" group-title="台灣", ELTA體育3台
+#EXTINF:-1 tvg-id="7192" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/105_d2b9e073bcef1bdd395bfd9da7c0d44e.png" group-title="台灣", ELTA體育2台
+rtmp://59.124.75.153/sat/md051
+
+#EXTINF:-1 tvg-id="7213" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/110_b229b1679884f5fc34980fbbe48d7cc9.png" group-title="台灣", ELTA體育3台
 rtmp://59.124.75.153/sat/md051
 
 #EXTINF:-1 tvg-id="ZST.TW" tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" group-title="台灣", 中視 HD
@@ -797,11 +809,11 @@ http://185.207.176.189:8080/channels/tw-100/playlist.m3u8
 #EXTINF:-1 tvg-id="7176" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/中视新闻.png" group-title="台灣", 中視新聞 HD
 http://seb.sason.top/sc/zsxw_fhd.m3u8
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" group-title="台灣", 中視經典台
-http://185.207.176.189:8080/channels/tw-102/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" group-title="台灣", 中視菁采台
+#EXTINF:-1 tvg-id="7136" tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" group-title="台灣", 中視菁采台
 http://185.207.176.189:8080/channels/tw-103/playlist.m3u8
+
+#EXTINF:-1 tvg-id="7172" tvg-logo="http://new.ctv.com.tw/Cms_Data/Sites/CTV3/Themes/default/images/logo_new.png" group-title="台灣", 中視經典台
+http://185.207.176.189:8080/channels/tw-102/playlist.m3u8
 
 #EXTINF:-1 tvg-id="HST.TW" tvg-logo="https://www.cts.com.tw/images/2018cts/cts-logo.png" group-title="台灣", 華視 HD
 rtmp://59.124.75.156/sat/tv111
@@ -815,10 +827,10 @@ http://seb.sason.top/sc/hsxw_fhd.m3u8
 #EXTINF:-1 tvg-id="HSX.TW" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/CTSNews.png" group-title="台灣", 華視新聞資訊 HD
 http://185.207.176.189:8080/channels/tw-503/playlist.m3u8
 
-#EXTINF:-1 tvg-id="HSX.TW" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/CTSNews.png" group-title="台灣", 國會頻道1
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/CTSNews.png" group-title="台灣", 國會頻道1
 http://185.207.176.189:8080/channels/tw-504/playlist.m3u8
 
-#EXTINF:-1 tvg-id="HSX.TW" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/CTSNews.png" group-title="台灣", 國會頻道2
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/CTSNews.png" group-title="台灣", 國會頻道2
 http://185.207.176.189:8080/channels/tw-505/playlist.m3u8
 
 #EXTINF:-1 tvg-id="TST.TW" tvg-logo="https://www.ttv.com.tw/group/15/images/TTV_HD_LOGO_36.png" group-title="台灣", 台視 HD
@@ -857,13 +869,13 @@ http://seb.sason.top/ptv/ftv.php?id=tw
 #EXTINF:-1 tvg-id="7134" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ftv-taiwan.png" group-title="台灣", 民視台灣台 HD
 http://198.16.106.62:8278/streams/d/ftvtaiwan_twn/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://tv.sason.xyz/logo/msyj.png" group-title="台灣", 民視影劇
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://www.nettv.live/uploads/allimg/20/1-2002111934260-L.jpg" group-title="台灣", 民視影劇
 http://seb.sason.top/ptv/ftv.php?id=yj
 
 #EXTINF:-1 tvg-id="7145" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/ftv-zongyi.png" group-title="台灣", 民視綜藝
 http://seb.sason.top/ptv/ftv.php?id=zy
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://tv.sason.xyz/logo/msly.png" group-title="台灣", 民視旅游
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://www.nettv.live/uploads/allimg/18/1-1P5151R6070-L.jpg" group-title="台灣", 民視旅游
 http://seb.sason.top/ptv/ftv.php?id=ly
 
 #EXTINF:-1 tvg-id="7135" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/民视.png" group-title="台灣", 民視 HD
@@ -878,7 +890,7 @@ https://raw.githubusercontent.com/LiuYi0526/IPTV/YTlive/hyxw.m3u8
 #EXTINF:-1 tvg-id="7177" tvg-logo="http://www.nettvplus.live/uploads/20/1-200323215544608.jpg" group-title="台灣", 寰宇新聞台灣台
 http://sl.tmtv.me/20201226/ubtl.php?cid=87
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiNews.png" group-title="台灣", 中天綜合 HD
+#EXTINF:-1 tvg-id="6054" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiNews.png" group-title="台灣", 中天綜合 HD
 http://198.16.106.62:8278/streams/d/ctizhonghe/playlist.m3u8
 
 #EXTINF:-1 tvg-id="6070" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/CtiNews.png" group-title="台灣", 中天新聞 HD
@@ -886,9 +898,6 @@ http://seb.sason.top/sc/ztxw_fhd.m3u8
 
 #EXTINF:-1 tvg-id="6069" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="台灣", 東森新聞 HD
 http://seb.sason.top/sc/dsxw_fhd.m3u8
-
-#EXTINF:-1 tvg-id="6069" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCNews.png" group-title="台灣", 東森新聞 HD
-http://104.250.154.42:8080/ZZ_dongsenxinwen/ZZ_dongsenxinwen.m3u8
 
 #EXTINF:-1 tvg-id="6075" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/EBCFinancialNews.png" group-title="台灣", 東森財經新聞 HD
 http://seb.sason.top/sc/dscjxw_fhd.m3u8
