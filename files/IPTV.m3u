@@ -626,20 +626,8 @@ https://www.navchina.cf/IPTV/icable.php?id=39
 #EXTINF:-1 tvg-id="301 綜合娛樂台 *" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLEFamilyEntertainmentChannelHD.png" group-title="香港", ★有線綜合娛樂台
 http://livetv.dnsfor.me:80/channel.7.m3u8
 
-#EXTINF:-1 tvg-id="601 高清體育台 *" tvg-logo="https://ftp.i-cable.com/iott_images/601_landscape.png" group-title="香港", 有線奧運601台
-https://www.navchina.cf/IPTV/icable.php?id=61
-
-#EXTINF:-1 tvg-id="602 Sports Plus 1 *" tvg-logo="https://ftp.i-cable.com/iott_images/602_landscape.png" group-title="香港", 有線奧運602台
-https://www.navchina.cf/IPTV/icable.php?id=62
-
 #EXTINF:-1 tvg-id="603 高清603台 *" tvg-logo="https://cdn.jsdelivr.net/gh/supzhang/epg/tb1/gt/hongkong603.png" group-title="香港", 有線高清603台
-https://www.navchina.cf/IPTV/icable.php?id=63
-
-#EXTINF:-1 tvg-id="604 Sports Plus 2 *" tvg-logo="https://ftp.i-cable.com/iott_images/604_landscape.png" group-title="香港", 有線奧運604台
-https://www.navchina.cf/IPTV/icable.php?id=64
-
-#EXTINF:-1 tvg-id="605 Sports Plus 3 *" tvg-logo="https://ftp.i-cable.com/iott_images/605_landscape.png" group-title="香港", 有線奧運605台
-https://www.navchina.cf/IPTV/icable.php?id=65
+45.11.92.252/luck/940049/13
 
 #EXTINF:-1 tvg-id="618 有線18台" tvg-logo="https://raw.githubusercontent.com/LiuYi0526/IPTV/master/TVlogos/iCABLEChannel18.png" group-title="香港", 有線18台
 rtmp://161.202.204.248:1935/sat/hk042
@@ -751,15 +739,6 @@ http://202.175.127.77/live/show/ch2/index.m3u8
 
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="http://www.macaucabletv.com/wp-content/uploads/CH3.png" group-title="澳門", 澳門有線 CH3
 http://202.175.127.77/live/show/ch3/index.m3u8
-
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/520_pic_1624000146.png" group-title="台灣", ELTA奧運1台
-rtmp://59.124.75.153/sat/md011
-
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/521_pic_1624000177.png" group-title="台灣", ELTA奧運2台
-rtmp://59.124.75.153/sat/md021
-
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/522_pic_1624000234.png" group-title="台灣", ELTA奧運3台
-rtmp://59.124.75.153/sat/md031
 
 #EXTINF:-1 tvg-id="7212" tvg-logo="https://piceltaott-elta.cdn.hinet.net/upload/channel/101_a4004c6c910cbec6345fa2015981ebd7.png" group-title="台灣", ELTA體育1台 4K
 rtmp://59.124.75.153/sat/md041
