@@ -1149,11 +1149,8 @@ https://livecdn.fptplay.net/world/nhkworld_hls.smil/chunklist_b2500000.m3u8
 #EXTINF:-1 tvg-id="Dummy" tvg-logo="https://startpoint.jp/wp-content/uploads/fb.jpg" group-title="Global", Nippon TV News24 Japan
 https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
 
-#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://static.epg.best/us/OlympicChannel.us.png" group-title="Global", ★Olympic Channel
-https://ott-live.olympicchannel.com/out/u/OC1_1.m3u8
-
-#EXTINF:-1 tvg-id="OLY.US" tvg-logo="http://static.epg.best/us/OlympicChannel.us.png" group-title="Global", ★Olympic Channel 2
-https://iocchannel-i.akamaihd.net/hls/live/514135/olylinear0629221316/DomesticOlympicsLinear_VIDEO_0_7064000.m3u8
+#EXTINF:-1 tvg-id="Dummy" tvg-logo="http://static.epg.best/us/OlympicChannel.us.png" group-title="Global", Olympic Channel
+https://www.navchina.cf/IPTV/Olympics.php
 
 #EXTINF:-1 tvg-id="RT.News" tvg-logo="http://static.epg.best/ru/RTInternational.ru.png" group-title="Global", RT
 http://rt-news.secure.footprint.net:80/1103_2500Kb.m3u8
