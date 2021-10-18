@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: TJP2OChQWFQmMi+Yp8UtIg
+! Checksum: mc5RlHdrDA2yYcnq7WRYfQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202110181407
-! Last Modified: 2021年10月18日 14:07
+! Version: 202110190201
+! Last Modified: 2021年10月19日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -8420,7 +8420,7 @@ _yad_jsonp_
 ||toolfk.com/common/cp.js
 ||toolfk.com/common/other/11.png
 ||toolfk.com/common/other/elm.png
-||toolfk.com/common/zfb.jpg
+||toolfk.com/common/zfb
 ||toolfk.com/tools/images/vps/
 ||toolnb.com/Public/aliyun/900x60.png
 ||topmba.mobi/ad/
@@ -9188,8 +9188,13 @@ _yad_jsonp_
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||ax1x.com^$domain=zzvips.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+ouyaoxiazai.com##.ad_show_1
+ouyaoxiazai.com##DIV[id^="cs_"]
+3dmgame.com##.downl_L > SPAN[style="display:none;"] + DIV[class]
+3dmgame.com##.Gmaeinfobtn_tab > A[class][onclick]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -16771,6 +16776,7 @@ _1MObaudu.js
 _jyjy.js$script,third-party
 _muytrf.js$script,third-party
 _NYTEF.js
+/aa_*_a1.js$script,third-party
 MoBi*.baidu.js$script,third-party
 xhtml?%22+$script,third-party
 $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzhong8.com|miwens.com
@@ -16795,6 +16801,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||52lty.store^
 ||axfvv.cn^
 ||lszwj.top^
+||eduszft.cn^
+||aliweimeng.top^
+||dblcs.cn^
+||haite.xyz^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -24463,6 +24473,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /get?affid=$script
 /get_browser_info.
 /get_geoip?
+/get_site_data?account_id=
 /get_tracking_id?
 /get_tracking_url.
 /getbglog.js
@@ -27539,6 +27550,7 @@ weibo.com##.apps_PCD_reco_detail_right
 ://stats.*/stats.aspx
 ://temptation.*/temptation.js
 ://track.*/collect
+://track.*/dye?
 ://track.*/visitor/
 ://tracker.*/pageview
 ://tracking.*/beacon/
@@ -36308,6 +36320,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||toyota.com/analytics/
 ||tr.clickstay.com^
 ||track.dictionary.com^
+||track.kueez.com^
 ||track.lexico.com^
 ||track.netzero.net^
 ||track.thesaurus.com^
@@ -47247,7 +47260,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||q-examiner.online/api/Ping?
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quantcast.mgr.consensu.org/cmp.js$script,domain=cyclingnews.com|express.co.uk|independent.co.uk|ladbible.com
-@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
+@@||quantcast.mgr.consensu.org^*/cmp2.js$script,domain=bigodino.it|bikeperfect.com|centrometeoitaliano.it|cyclingnews.com|digitalcameraworld.com|donnaglamour.it|einthusan.tv|express.co.uk|f1aldia.com|fantacalcio.it|formulapassion.it|gamesradar.com|gianlucadimarzio.com|guitarplayer.com|independent.co.uk|indy100.com|ladbible.com|laptopmag.com|livescience.com|livingetc.com|mirror.co.uk|musicradar.com|pcgamer.com|porconocer.com|realhomes.com|researchgate.net|space.com|t3.com|techradar.com|tomsguide.com|tomshardware.com|tumblr.com|whathifi.com|whattowatch.com
 @@||rasset.ie/dotie/js/tracker.js$domain=rte.ie
 @@||rba-screen.healthsafe-id.com/fp/tags.js$script,domain=myuhc.com
 @@||repairtrackingsite.nintendo.eu/Tracking/$subdocument,domain=nintendo.co.uk
