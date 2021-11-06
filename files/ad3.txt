@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5oNAoMYjYN9rt3qtHitpTw
+! Checksum: k0FvebaOdzaNnzytqrdHHQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111061401
-! Last Modified: 2021年11月06日 14:01
+! Version: 202111070201
+! Last Modified: 2021年11月07日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -34,6 +34,7 @@ static.g.iqiyi.com
 ||ssports.iqiyi.com/app/$object-subrequest
 show.ssports.com
 qq.com##.mod_ad, .txp_ad, div.l_qq_com, .txp-watermark, .txp_ad_link
+qq.com##+js(set, Beacon.prototype.fail, null)
 v.qq.com,sports.qq.com,new.qq.com##+js(json-prune,ad,vinfo)
 v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
 @@||video.qq.com/fcgi-bin/
@@ -1556,10 +1557,14 @@ _xiuno_com_ad/
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##.btn[href*="/viphktv.com/"]
+##.btn[href*=".xxmh779.com/"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 !----------------------------------Ads-Union----------------------------------!
 -*-*-*-*.panda^$script,third-party
 .8ox.cn
+||xinerdact.com^
+||fujincenter.com^
 .cc/s.php?id=$script,third-party
 .cn/?ss=$script,third-party
 .cn/s.php?id=$script,third-party
@@ -4910,11 +4915,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||70.86.24.120:8060/
 ||70822.com/agfile/
 ||7160.com/js/tiaozhuanquanju.js
-||717dyi.com/js/dh
-||717dyi.com/js/dibu.js
-||717dyi.com/js/head.js
-||717dyi.com/js/zb
-||717dyi.com/Public/js/zbhf/
+||717dyw.com/js/dh
+||717dyw.com/js/dibu.js
+||717dyw.com/js/head.js
+||717dyw.com/js/zb
+||717dyw.com/Public/js/zbhf/
 ||71xe.com/image/zguancun/
 ||71xe.com/one/
 ||71xe.com/prevent/
@@ -6211,9 +6216,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dytt.com/oj.js
 ||dytt.com/pc.js
 ||dytt.com^*yb.js
-||dytt8.net/js1/
 ||dytt8.net/js2/
-||dytt8.net/jsd/app.js
+||dytt8.net/jsd
 ||dyzyhj.com/Jk/
 ||dz19.net/addimg/
 ||dzwww.com/data/js/asp_$script
@@ -9262,8 +9266,11 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||mysteelcdn.com/gg/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+423down.com##a[href*=".henghost.com"]
+2345.com###leftPacketBox
 jiegeng.com##.l_div
 jiegeng.com##.r_div
 jiegeng.com##.picBt
@@ -12895,7 +12902,7 @@ baobao.baidu.com##.qb-relate-box
 qidian.com##.qd-game
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.qipai_thread
 qq.com##.qiye-Article-QQ
-717dyi.com##.qptp + *,.vdgd + *,.qpgd + *,a > video
+717dyw.com##.qptp + *,.vdgd + *,.qpgd + *,a > video
 seqing.world,singlove.com,whichav.com,whichav.net,wokao.co##.qq
 htcui.com##.qqanimate
 phpvar.com##.qrcode-swiper-container
@@ -13760,9 +13767,9 @@ sinolub.com##[id^="xker"]
 32r.com##[onclick*="@"]
 zhangxinxu.com##[onclick*="Ad"]
 42xz.com##[onclick*="godownload"]
-1stchina.net,717dyi.com,86cg.me,duodada.com,liaocao.tv,nicotv.me,poxiaotv.com,taotaoxiang.vip##[onclick]
+1stchina.net,717dyw.com,86cg.me,duodada.com,liaocao.tv,nicotv.me,poxiaotv.com,taotaoxiang.vip##[onclick]
 duonaolive.com##[onclick^="track"]
-6090ba.com,717dyi.com,duodada.com##[ontouchstart]
+6090ba.com,717dyw.com,duodada.com##[ontouchstart]
 duodada.com##[style*="position: fixed; left: 0px;"]
 fffdm.com##[style^="width"][style*="height"]
 kisssub.org##a > img[src*=".0o0.ooo/"]
@@ -16917,6 +16924,18 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||axfvc.cn^
 ||nmgpd.com^
 ||atuehome.cn^
+||jiuji.ltd^
+||sssyao.cn^
+||jzuyfp8.cn^
+||pcshijie.cn^
+||dwr0.cn^
+||thechosen1.cn^
+||qzgs99.cn^
+||sherrycha.cn^
+||mineral-water.cn^
+||pj16t.cn^
+||y0764.cn^
+||c3y1oja.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -21414,6 +21433,8 @@ _box_ad_
 ||mydrivers.com^*/xianshitehui.png
 ||mydrivers.com/m/images/v1/kkjapp_down.gif
 !------------------------Specific element hiding rules------------------------!
+sina.com.cn##A[href="https://touzi.sina.com.cn/"]
+finance.sina.com.cn##DIV[class*="game"]
 weimob.com###active-entrance
 pconline.com.cn##.fixLeftQRcode
 cheetahfun.com##.guide
@@ -22365,7 +22386,7 @@ m.56.com##a[data-statkey="newad_banner"]
 loldk.com##a[href$=".html?from=video_right"]
 ifeng.com##a[href*=".app"]
 163.com##a[href*=".kaola.com"]:first-child:last-child
-sina.com.cn##a[href="https://finance.sina.com.cn/mobile/comfinanceweb.shtml"]
+sina.com.cn##A[href*="/comfinanceweb."]
 crsky.com##a[href^="http://count."][href$=".exe"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img
@@ -26669,6 +26690,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /stat/fe?
 /stat/inserthit.
 /stat/online-log
+/stat/rt/js?
 /stat/track_
 /stat/tracker.
 /stat/uvstat?
@@ -28413,6 +28435,7 @@ _mongo_stats/
 ||mdhv.io^
 ||mors22.com^
 ||mt48.net^
+||n0909.com^
 ||ns1p.net^
 ||nxakpj4ac8gkd53.info^
 ||omappapi.com^
@@ -28447,6 +28470,7 @@ _mongo_stats/
 ||trkbc.com^
 ||tru.am^
 ||truffle.bid^
+||tryzens-analytics.com^
 ||tvpixel.com^
 ||ugdturner.com^
 ||videoplayerhub.com^
@@ -34042,6 +34066,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.brightcove.com^
 ||metrics.ctvdigital.net^
 ||metrics.getvitals.io^
+||metrics.pico.tools^
 ||metrics.readme.io^
 ||metrics.scribblelive.com^
 ||metrix.emagister.com^
@@ -34303,6 +34328,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||quora.com/qevents.js
 ||qzzr.com/_uid.gif
 ||r.mail.ru^$script
+||r.skimresources.com^
 ||rackcdn.com/gate.js
 ||rackcdn.com/stf.js
 ||radiotime.com/Report.ashx?
@@ -34548,6 +34574,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.sgc.io^
 ||t.sharethis.com^
 ||t.signalayer.com^
+||t.skimresources.com^
 ||t.smile.eu^
 ||t.spot.im^
 ||t2.t2b.click^
@@ -35899,6 +35926,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adc.api.nine.com.au^
 ||adc.nine.com.au^
 ||adguard.com/-/event/
+||adobe.io/system/log
 ||adv.drtuber.com^
 ||advancedmp3players.co.uk/support/visitor/index.php?
 ||affiliates.treasureisland.com^
