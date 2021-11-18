@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: j7rCHSeGlUSXoVhBfCBThg
+! Checksum: PbufMMgvf6zgwNNOIu0Vcw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202111180201
-! Last Modified: 2021年11月18日 02:01
+! Version: 202111181402
+! Last Modified: 2021年11月18日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -16966,6 +16966,14 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
 ||mjdnarks.cn^
+||6667778882021.site^
+||hhnvrht.cn^
+||rjhtrjb.cn^
+||gdmjskjx.com^
+||whusihgq.cn^
+||ilyjmpg.cn^
+||klakwvw.cn^
+||pokcykb.cn^
 ###asdw3
 ###asdw3 + img + :not(div)
 ###chaptername + div > div[style="padding:10px;border-radius:10px;background-color:green;"]
@@ -28911,7 +28919,6 @@ _mongo_stats/
 ||appboycdn.com^$third-party
 ||appcast.io^$third-party
 ||appn.center^$third-party
-||appsflyer.com^$third-party
 ||aprtn.com^$third-party
 ||aprtx.com^$third-party
 ||apsis1.com^$third-party
@@ -35107,6 +35114,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webedia.fr/js/gs.js
 ||weblog.livesport.eu^
 ||weblogger-dynamic-lb.playdom.com^
+||websdk.appsflyer.com^
 ||webservices.websitepros.com^
 ||webstats.motigo.com^$third-party
 ||webstats.thaindian.com^
@@ -36371,6 +36379,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||error-collector.ted.com^
 ||error.fc2.com^
 ||et.nytimes.com^
+||et.tidal.com^
 ||etsy.com/bcn/beacon
 ||etui.fs.ml.com^
 ||etx.indiatimes.com^
@@ -37206,7 +37215,6 @@ techxplore.com##.embed-responsive-trendmd
 ||sourcepoint-mms.aetv.com^
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
-||sourcepoint.theguardian.com^
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||trustarc.mgr.consensu.org/get?
 ||twus-mms.theweek.com^
@@ -46684,6 +46692,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||track.noz.de^
 ||track.rundschau-online.de^
 ||tracking.finanzen.net^
+||tracking.fupa.net^
 ||tracking.krone.at^
 ||tracking.noen.at^
 ||tracking.oe24.at^
@@ -47562,6 +47571,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cdn.cxense.com^$script,domain=bizjournals.com|bloombergquint.com|marketwatch.com
 @@||cleverpush.com/channel/$script,domain=bsdex.de
 @@||community.brave.com/t/$xmlhttprequest
+@@||cpt-static.gannettdigital.com/universal-web-client/master/latest/elements/vendor/adobe/
 @@||d1km2unb2600pw.cloudfront.net/assets/tracking-history-popup-$script,domain=collectplus.yodel.co.uk
 @@||d2wy8f7a9ursnm.cloudfront.net^$script,domain=staples.ca
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
@@ -48069,6 +48079,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 !---------- Hungarian ----------
 @@||argep.hu/googleanalytics.js
 @@||clicktale.net/WRc5.js$domain=telefonkonyv.hu
+@@||dtp.tv3cloud.com/amc/beacon?$domain=telekomtvgo.hu
 @@||ingest.sentry.io/api/$xmlhttprequest,domain=tesco.hu
 @@||rtl.hu/javascripts/UserTracking.js
 @@||rtl.hu^*/gemius_id.js?
