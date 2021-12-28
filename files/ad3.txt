@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: JbonJ+xxxYJa7iKC1IsQxg
+! Checksum: gRfdeJ5gDYsZ1SnU3aBNeg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202112280816
-! Last Modified: 2021年12月28日 08:16
+! Version: 202112290202
+! Last Modified: 2021年12月29日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1300,6 +1300,8 @@ ubmcmm.baidustatic.com
 ##.ggpost-below
 ##.ggtop
 ##.ggw
+###player_pause > .tip + A[target="_blank"]
+##.txp_ad[data-role="txpad-interact-pause"]
 ##.global_video_bottom_dbtc
 ##.google-ad2_fixed
 ##.google_adsense2
@@ -1765,6 +1767,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||hbys66.com^
+||xahggy.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -4265,6 +4269,7 @@ $popup,third-party,domain=76fengyun.com|88files.net|avsdown.com|downdv.com|downd
 .189.gd^*.html?p=$popup,third-party
 .com/?aff=$popup,third-party
 .com/?Intr=$popup,third-party
+||coconutsumptuousreseptivereseptive.com^$popup
 /BadwebRemindPage.aspx?param=$popup,third-party
 /hndxweb/push$popup,third-party
 /htmm/20*.php$popup
@@ -9025,7 +9030,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
 ||yatu.tv/m/images/*300_100
-||ybbs.ca/index/js/advReplay_
 ||yccz.net/xml/
 ||yczbb.*/ggimg/
 ||ydss.cn/static/js/autoAd.js
@@ -9102,7 +9106,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ynzd.org/dict/uploads/20111007/ad_710.jpg
 ||yoka.com/s?z=
 ||yongjiuzy.cc/yongjiu.gif
-||yorkbbs.ca/yorkads/
 ||you85.net/ck2/
 ||youaima.com/rest/
 ||youaima.com/zz/
@@ -9332,8 +9335,12 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
 ||2114.com/zb_users/script/advertise.js
+||yorkbbs.ca/crm/section/v1/get/list/open
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+router.houzi-blog.top##.img
+v2rayssr.com###gg-box
+bilibili.com#?#.bili-video-card:-abp-has(.bili-video-card__info--ad-img)
 hao.360.com#?#.cube-mod:-abp-has(> .cube-bd > .cube-card > .project-root > ._CUBE_A_D_CLK_)
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -13433,7 +13440,6 @@ chineseinla.com##.text-ads-col
 baidu.com##.text-advertise
 fastadmin.net##.text-center > .carousel
 baidu.com##.text-link-ads
-yorkbbs.ca##.textNewsBorder
 auto-online.com.tw##.text_links_h
 jiyingw.net##.textwidget > p > a > img
 maomaomom.com##.textwidget > table[width="1050"]
@@ -17120,6 +17126,19 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
+||zixiaxianhua.shop^
+||yumu.pro^
+||bcjxwlkj.com^
+||jiucaishuo.cn^
+||justwkj.xyz^
+||ssjxwlkj.com^
+||runtai369.cn^
+||yini.link^
+||kuangbang.ltd^
+||thjxwlkj.com^
+||trueskincare.tech^
+||wzzb.club^
+||xihua.me^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -21096,9 +21115,7 @@ zol.com.cn##span[class^="jisu-down"]
 eastday.com#@##leftShare
 189.cn#@##linkShare
 gfan.com,gfan.net.cn#@##shareBox
-sogou.com#@##shareContent
 189.cn,zdzdm.com#@##share_list
-harrynull.tech#@##sharelist
 hotjob.cn#@#.SOCIAL
 freecodecamp.cn,freecodecamp.one#@#.btn-social
 storm.mg#@#.btn_fb
@@ -21107,9 +21124,7 @@ softblog.tw#@#.dshare
 carousell.com#@#.fb-b
 sui.com#@#.fb-btn
 douyu.com,oschina.net#@#.follow-btn
-bilibili.com#@#.follow-wrapper
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
-gamersky.com#@#.like2
 readmoo.com#@#.navbar-social
 youdao.com#@#.open-share
 music.163.com#@#.p-share
@@ -21230,7 +21245,6 @@ fqsousou.com,kengso.com#@#.user-share
 @@||autoimg.cn/bi/common/pvevent_all_
 @@||bagehd.com/iplookup.
 @@||baidu.com/h.js$domain=19lou.com|baomihua.com|ihome99.com
-@@||baidu.com/hm.$domain=clgod.com
 @@||baidu.com/hm.js$domain=cainiao.com|dwz.cn
 @@||baidu.com/location/ip?$domain=dominos.com.cn|saicmg.com|tanmizhi.com|tianqi.qq.com
 @@||baidu.com/static/touch/js/lib/fingerprint.js$~third-party
@@ -31442,7 +31456,7 @@ _mongo_stats/
 ||silverpop.com^$third-party
 ||silverpush.co^$third-party
 ||simonsignal.com^$third-party
-||simpleanalytics.com^$third-party
+||simpleanalytics.com^$third-party,domain=~simpleanalyticscdn.com
 ||simpleanalytics.io^$third-party
 ||simpleanalyticsbadge.com^$third-party
 ||simpleanalyticscdn.com^$third-party
@@ -38503,6 +38517,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||squirrel.malaynahocker.com^
 ||srtb.msn.com^
 ||ssc.api.bbc.com^
+||st.sawlive.tv^
 ||stan.xing.com^
 ||starfiles.co/analytics.php
 ||stat.livesportbar.net^
@@ -48373,6 +48388,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||space-blogs.net/include/counter/
 ||stat.ouedkniss.com^
 ||stats.sexemodel.com^
+||stats.zone-annuaire.one^
 ||surace-jujitsu.fr/outils/compteur_php/
 ||t.blablacar.com^
 ||tc2.hometogo.net^
@@ -49303,6 +49319,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||chessfriends.com/js/live/GoogleAnalytics.js?$~third-party
 @@||circuitv.com/assets/js/analytics.js$~third-party
 @@||cloud.talend.com/api/ipaas/services/analytics/$~third-party,xmlhttprequest
+@@||cloudflare.com/cdn-cgi/trace$domain=myair2.resmed.com
 @@||cloudflareinsights.com/beacon.min.js$script,domain=app.uniswap.org
 @@||cloudfront.net/atrk.js$domain=luxuryrealestate.com
 @@||cloudfront.net/vis_opt.js$script,domain=gre.magoosh.com
