@@ -1,17 +1,17 @@
 [Adblock Plus 2.0]
-! Checksum: 6S+cYzeCsoBEiHUg+50eLQ
+! Checksum: 6XEQbNBdfBVA+nklFlEnXw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202201200202
-! Last Modified: 2022年01月20日 02:02
+! Version: 202201201402
+! Last Modified: 2022年01月20日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
 ! 如有任何疑问、意见或建议，请反馈至：HalfLife吧
 !
 ! 乘风 视频广告过滤规则
-v.qq.com,huya.com,dandanzan.top,nunuyy1.*##+js(set, RTCPeerConnection, undefined)
-v.qq.com,huya.com,dandanzan.top,nunuyy1.*##+js(set, webkitRTCPeerConnection, undefined)
+v.qq.com,huya.com,le.com,dandanzan.top,nunuyy1.*##+js(set, RTCPeerConnection, undefined)
+v.qq.com,huya.com,le.com,dandanzan.top,nunuyy1.*##+js(set, webkitRTCPeerConnection, undefined)
 v.youku.com##.control-phonewatch,#right-title-ad-banner, .kui-watermark-0
 v.youku.com##+js(aeld,dblclick,switchFullscreen)
 m.youku.com,v.youku.com##+js(nano-stb, r--,, 0.02)
@@ -17287,6 +17287,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qxtwkq.cn^
 ||6899.fun^
 ||xhx.design^
+||gblvuim.cn^
+||qtrwwov.cn^
+||ftvqvv.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -24829,6 +24832,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /api/v2/jsonlogger
 /apilog?
 /apis/cpt.php?
+/apis/facebook_conversion
 /apitracking.
 /apixel?
 /app-measurement?
@@ -25235,7 +25239,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /cklog.js
 /cl.gif?pvID=
 /clacking.js
-/clarity-*.js$domain=~clarity-labs.kaminario.com|~make.services
+/clarity-*.js$domain=~clarity-labs.kaminario.com|~clarity.imply.io|~make.services
 /clarity-api-
 /class.tracking.js
 /clear.gif?
@@ -25909,6 +25913,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /fb-pixel-
 /fb-tracking.js
 /fb_pixel-
+/fb_pixel_page_
 /fbanalytics/*
 /fbcounter/*
 /fbevents-amd.js
@@ -38535,6 +38540,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||go.pardot.com^
 ||go.theregister.com^$image
 ||gofundme.com/track
+||gog-statics.com/js/frontpagelogintracking-$script,domain=gog.com
+||gog-statics.com/js/loginTracking-$script,domain=gog.com
 ||google.com/dssw.js
 ||google.com/images/phd/px.gif
 ||google.com/log?
