@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xw9pFCaf0/kWldc3sKSgEA
+! Checksum: qK69vQ8JK2OvvggzSHOpQA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202061403
-! Last Modified: 2022年02月06日 14:03
+! Version: 202202070201
+! Last Modified: 2022年02月07日 02:01
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1798,6 +1798,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
+##a[href*="/5537220.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
@@ -9513,6 +9514,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||news.cn^*_tlad.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+939394.xyz##A[target="_blank"][href*="/images/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -15661,6 +15663,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
 @@||gooogle.how^$generichide
+@@||939394.xyz^$generichide
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||gtimg.cn/images/nz/cp/*/adimg.png$domain=qq.com
 @@||gtimg.com/adplugin/swf/MediaPlugin.swf$domain=qq.com
@@ -17365,6 +17368,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhiai.space^
 ||wzjs.me^
 ||rtreyyf.cn^
+||word168.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -35788,6 +35792,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cnpapers.com/scripts/library/
 ||cnt.3dmy.net^
 ||cnt.mastorage.net^
+||cnt.trvdp.com^
 ||cnzz.com/stat.
 ||cod.bitrec.com^
 ||coinbase.com/assets/application-*.js$third-party
@@ -37871,6 +37876,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||neteventsmedia.be/hit.cfm?
 ||netreviews.eu/index.php?action=act_access&$third-party
 ||nws.naltis.com^
+||offer.slgnt.eu^
 ||optinproject.com/rt/visit/
 ||osd.oxygem.it^
 ||pagesjaunes.fr/stat/
@@ -49139,6 +49145,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||batiactu.com/cap_
 ||compteur.developpez.com^
 ||developpez.com/public/js/track.js
+||e.m6web.fr/events
 ||ecranlarge.com/stat
 ||franceculture.fr/static/js/xtcore-
 ||franceinter.fr/vendor/track.js
