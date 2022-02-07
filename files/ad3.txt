@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qK69vQ8JK2OvvggzSHOpQA
+! Checksum: gDw3L0zZCsCX6rY/mjYdHg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202070201
-! Last Modified: 2022年02月07日 02:01
+! Version: 202202071402
+! Last Modified: 2022年02月07日 14:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1700,6 +1700,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/33hth.cn"]
 ##a[href*="/3400com-o15.com/"]
 ##a[href*="/445.ee/"]
+##a[href*="/5537220.com/"]
 ##a[href*="/602034.com"]
 ##a[href*="/7267224.com/"]
 ##a[href*="/7699j.com:"]
@@ -1798,16 +1799,14 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/789htbet.vip"]
 ##img[onclick*="/ayx600.com/"]
 ##img[onclick*="/ayx700.com/"]
-##a[href*="/5537220.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
-||jghklz.xyz^
 ||00-gov.cn^
+||9391434.com^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
-||govqingdao.cn^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -2785,6 +2784,7 @@ ubmcmm.baidustatic.com
 ||govguilin.cn^
 ||govhechi.cn^
 ||govkunming.cn^
+||govqingdao.cn^
 ||govshenzhen.cn^
 ||govxian.cn^
 ||govyunfu.cn^
@@ -3027,6 +3027,7 @@ ubmcmm.baidustatic.com
 ||jfsm5.top^
 ||jgchq.com^
 ||jghcy.com^
+||jghklz.xyz^
 ||jgwsmqx.com^
 ||jhtcdj.com^
 ||jiaheyonggu.com^
@@ -7884,6 +7885,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||newasp.net/static/js/foot_
 ||news.cn/2018/images/2018rbqj_
 ||news.cn/2021detail/js/booklist.js
+||news.cn^*_tlad.js
 ||news.sina.com.cn/js/792/*head*.js
 ||news.sina.com.cn/pfpnews/js/libweb.js$domain=~www.sina.com.cn
 ||news.sina.com.tw/js/ti.js
@@ -9511,10 +9513,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
-||news.cn^*_tlad.js
+||mysteelcdn.com/common/*/js/img_ad.
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
-939394.xyz##A[target="_blank"][href*="/images/"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -14438,6 +14439,7 @@ aishoujizy.com,xd0.com##a[target="_blank"] > img[src^="/upload/1/"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width="920"]
 18board.com,18board.net,18p2p.com,18p2p.tv##a[target="_blank"] > img[width^="72"]
 pinggu.org##a[target="_blank"][href*=".cda.cn"]
+939394.xyz##a[target="_blank"][href*="/images/"]
 muchong.com##a[target="_blank"][style="display: inherit!important;"]
 pixiv.net##a[target="premium_noads"]
 youz4.com##a[title*="广告"]
@@ -15436,6 +15438,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||85tube.com^$generichide
 @@||88box.com/images/ad_images/
 @@||930mh.com/js/config.js
+@@||939394.xyz^$generichide
 @@||95306.cn/public/images/ad/
 @@||95504.net/Advertisement_
 @@||95599.cn^*ad
@@ -15663,7 +15666,6 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||googletagmanager.com/gtag/js?id=$domain=av01.tv
 @@||googletagservices.com/tag/js/gpt.js$domain=tvb.com|www.gamer.com.tw
 @@||gooogle.how^$generichide
-@@||939394.xyz^$generichide
 @@||gov.cn/scripts/Comm/AdRotator.js
 @@||gtimg.cn/images/nz/cp/*/adimg.png$domain=qq.com
 @@||gtimg.com/adplugin/swf/MediaPlugin.swf$domain=qq.com
@@ -17361,14 +17363,9 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels
-||rmdzsw.top^
-||hexin.city^
-||zuibandao.club^
-||cloudzhuge.cn^
-||zhiai.space^
-||wzjs.me^
-||rtreyyf.cn^
-||word168.cn^
+||lf666.xyz^
+||taopiaopiao.shop^
+||dmfhqzo.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -18222,6 +18219,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||clfmm.cn^
 ||clmmw.com^
 ||cloudassistant.vip^
+||cloudzhuge.cn^
 ||clxxkz.com.cn^
 ||clzgd.com^
 ||cmall.club^
@@ -18615,6 +18613,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||hdsjk.cc^
 ||hebeiyichen.com^
 ||hello211.top^
+||hexin.city^
 ||hexp.xyz^
 ||heyi.shop^
 ||hgbvtax.cn^
@@ -19084,6 +19083,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||rsvffmn.cn^
 ||rsykksw.cn^
 ||rt354.cn^
+||rtreyyf.cn^
 ||ruif.xyz^
 ||runtai369.cn^
 ||rylcbwg.cn^
@@ -19287,6 +19287,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||wnet.ink^
 ||wojv.club^
 ||woniu1314520.vip^
+||word168.cn^
 ||wppei.cn^
 ||wpqsmse.cn^
 ||ws-expo.cn^
@@ -19304,6 +19305,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||wwshxc.cn^
 ||wxkouem.cn^
 ||wxqcshgc.icu^
+||wzjs.me^
 ||wzxzy.icu^
 ||wzytop.top^
 ||wzzb.club^
@@ -19471,6 +19473,7 @@ yemancomic.com##.ncl_img > :not(#cp_img)
 ||zrwba.cn^
 ||zsshlsh.cn^
 ||zthhhbb.cn^
+||zuibandao.club^
 ||zuoyouyu.cn^
 ||zwdq.xyz^
 ||zxakeax.cn^
@@ -26771,6 +26774,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /isi-tracking.
 /istat.aspx?
 /ists.tag?
+/item-stats.
 /item/tracking/*
 /ItemStats.ajax?
 /itgdtracksdk.
@@ -28063,6 +28067,7 @@ weibo.com##.apps_PCD_reco_detail_right
 /script_log.
 /scriptAnalytics.
 /scripts.kissmetrics.com/*
+/scripts/analitics.
 /scripts/analytics.
 /scripts/analytics_
 /scripts/clickjs.php
@@ -32595,6 +32600,7 @@ _mongo_stats/
 ||vendri.io^$third-party
 ||ventivmedia.com^$third-party
 ||vepxl1.net^$third-party
+||verbolia.com^$third-party
 ||vercel-analytics.com^$third-party
 ||vercel-insights.com^$third-party
 ||vertical-leap.co.uk^$third-party
@@ -37051,6 +37057,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
 ||tags.refinery89.com^
+||tags.remixd.com^
 ||tagtracking.vibescm.com^
 ||target.mixi.media^
 ||targeting.*.arcpublishing.com^
@@ -37906,7 +37913,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tsphone.biz/pixelvoleur.jpg?
 ||veoxa.com/get_trackingcode.
 ||vidazoo.com/report/?
-||viously.com/mt?
+||viously.com^*/mt?
 ||visitping.rossel.be^
 ||webreseau.com/impression.asp?
 ||webtutoriaux.com/services/compteur-visiteurs/index.php?$third-party
@@ -38582,6 +38589,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||atrack.allposters.com^
 ||ats.alot.com^
+||autotrader.com/pixall/
 ||avitop.com/aviation/hitlist.asp
 ||aws-native.com/ping/
 ||b.wal.co/rum.js$domain=samsclub.com
@@ -50151,7 +50159,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cqcounter.com^$domain=cqcounter.com
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,domain=einthusan.tv
-@@||datadoghq-browser-agent.com/datadog-rum-us.js$script,domain=usa.experian.com
+@@||datadoghq-browser-agent.com/datadog-$script,domain=bbcgoodfood.com|usa.experian.com
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||ddmcdn.com^*/comscore.streaming.$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||decision.taplytics.com^$domain=royalbank.com
@@ -50166,6 +50174,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dynamicyield.com/st?$script,domain=computeruniverse.net|croma.com|fendi.com|thewarehouse.co.nz|zalora.com.my|zalora.com.ph|zalora.sg
 @@||easternbank.com/sites/easternbank/files/google_tag/eastern_bank/google_tag.script.js$script,~third-party
+@@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
 @@||easyship.com/api/v1/track/$xmlhttprequest,domain=trackmyshipment.co
 @@||eatstreet.com/api/v2/tracking/$~third-party
 @@||editorx.com/_api/*count?type$~third-party
@@ -50745,6 +50754,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||klpinteraktiv.klp.no^*/Tracking.js?
 @@||postnord.no/api/tracking/$~third-party
 !---------- Polish ----------
+@@/_sess/script.js$domain=naszemiasto.pl
 @@/frosmo.easy.js$domain=sklep.pl.canalplus.com
 @@||addthisedge.com/live/$xmlhttprequest,domain=serialomaniak.pl
 @@||adobedtm.com^*/satelliteLib-$script,domain=laredoute.pl
