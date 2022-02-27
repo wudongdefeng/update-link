@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EQwgw8s9g7nQOiOuWJSR4g
+! Checksum: ZuBU/67AkJRU8uVox8/44Q
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202202271403
-! Last Modified: 2022年02月27日 14:03
+! Version: 202202280202
+! Last Modified: 2022年02月28日 02:02
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1493,7 +1493,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/entry/register/?i_code="]
 ##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
 ##a[href="/gghtml/tyc.html"]
-##a[href="javascript:GoDb();"]
+##A[href^="javascript:GoDb"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
 ##a[href="javascript:window.GoTp();"]
@@ -1792,6 +1792,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/1266p.com:"]
 ##a[href*="/3525v.com:"]
 ##img[onclick*="/ayx700.com/"]
+##img[onclick*=".gghktv.com/"]
 ##a[href*=".celadonstyle.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
@@ -1799,6 +1800,8 @@ ubmcmm.baidustatic.com
 ||haoyundmtaotao.com^
 ||4takaixi.xyz^
 ||7gukaip.xyz^
+||hylmimgg.com^
+||8848skins.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -9502,6 +9505,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||duodada.com/333/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+tucao.one##.c_att
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17382,6 +17386,10 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=xs7788.com|00ksw
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||9go.mobi^
+||lahair.biz^
+||shenghemy.mobi^
+||wenhaikj.xyz^
 ||qicqn.cn^
 ||kuamei.cloud^
 ||qkuvmwf.cn^
@@ -17404,6 +17412,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=xs7788.com|00ksw
 ||zdzy.shop^
 ||hulauf.cn^
 ||khphkum.cn^
+||huiyef.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -34832,6 +34841,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||toc.io^$third-party
 ||tracking.wlscripts.net^
 ||uzerly.net^$third-party
+||vpn-access.site^$third-party
 ||webcompteur.com^$third-party
 ||winitout.com^$third-party
 ||wysistat.com^$third-party
@@ -49123,6 +49133,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||p.kolplay.com^
 ||p.pagesjaunes.fr^
 ||pixel.ionos.fr^
+||res.paruvendu.fr^
 ||shemsfm.net/ar/setStats/
 ||shemsfm.net/fr/setStats/
 ||space-blogs.net/include/counter/
