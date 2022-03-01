@@ -1,2 +1,3 @@
 https://halflife.coding.net/p/list/d/list/git/raw/master/ad3.txt,1
 https://raw.githubusercontent.com/40740/dianshi/main/0.txt,1
+https://raw.githubusercontent.com/zbefine/iptv/main/iptv.m3u,1
