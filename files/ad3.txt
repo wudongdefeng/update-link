@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: iMQkKZc/JUKCkxbP4woXpw
+! Checksum: /L6X+J1TAhX3HyJgNiEGCw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203021411
-! Last Modified: 2022年03月02日 14:11
+! Version: 202203030213
+! Last Modified: 2022年03月03日 02:13
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1802,6 +1802,7 @@ ubmcmm.baidustatic.com
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
+||jiujiupk.com^
 ||00xvppy.cn^
 ||012.tw^$third-party
 ||01fen.com^
@@ -17402,6 +17403,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||qinmon.xyz^
 ||hbears.com^
 ||hkoytvx.cn^
+||qhytkj.xyz^
+||rrogfhs.cn^
+||buyis.cn^
+||zuolgc.cn^
+||jeuuhu.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -30169,6 +30175,7 @@ _mongo_stats/
 ||crsspxl.com^
 ||crwdcntrl.net^
 ||cxt.ms^
+||cybba.solutions^
 ||czx5eyk0exbhwp43ya.biz^
 ||demdex.net^
 ||dispatchunique.com^
@@ -31213,6 +31220,7 @@ _mongo_stats/
 ||fullcircleinsights.com^$third-party
 ||fullstory.com^$third-party
 ||funneld.com^$third-party
+||funnelytics.io^$third-party
 ||funstage.com^$third-party
 ||fuse-data.com^$third-party
 ||fusestats.com^$third-party
@@ -32858,6 +32866,7 @@ _mongo_stats/
 ||whoisonline.net^$third-party
 ||whoisvisiting.com^$third-party
 ||whosclickingwho.com^$third-party
+||wickedreports.com^$third-party
 ||widerplanet.com^$third-party
 ||wikia-beacon.com^$third-party
 ||wikiodeliv.com^$third-party
@@ -35254,6 +35263,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||premiumads.com.br^$third-party
 ||retargeter.com.br^$third-party
 ||sambaads.com^$third-party
+||shoptarget.com.br^$third-party
 ||tailtarget.com^$third-party
 ||trugaze.io^$third-party
 ||2parale.ro^$third-party
@@ -35476,6 +35486,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||3p-udc.yahoo.com^
 ||51network.com^$third-party
 ||99widgets.com/counters/
+||9w2zed1szg.execute-api.us-east-1.amazonaws.com^
 ||a.mobify.com^
 ||a2z.com/sping?
 ||aan.amazon.com^$third-party
@@ -50171,7 +50182,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=honeystinger.com|kawasaki.com|m.putlocker.how|mediaite.com|schwab.com
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|atptour.com|bsa-whitelabel.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|fortune.com|kedronparkhotel.com.au|level.travel|nflgamepass.com|nordvpn.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$domain=guce.advertising.com

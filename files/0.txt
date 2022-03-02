@@ -4,7 +4,6 @@ CCTV2,http://39.135.32.236:6610/PLTV/77777777/224/3221225676/index.m3u8?$广西�
 CCTV3,http://39.135.187.130/0000000000001001/1/index.m3u8?Contentid=1000000001000013682&livemode=1&stbId=2&channel-id=ystenlive
 CCTV4,http://111.20.33.93/TVOD/88888893/224/3221226223/index.m3u8
 CCTV5,http://39.135.32.236:6610/PLTV/77777777/224/3221225801/index.m3u8?$广西移动
-CCTV5+,http://111.20.33.93/TVOD/88888893/224/3221226221/index.m3u8
 CCTV6,http://39.136.66.40/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226011/1/index.m3u8?fmt=ts2hls
 CCTV7,http://39.136.66.40/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225745/1/index.m3u8?fmt=ts2hls
 CCTV8,http://39.136.66.40/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226005/1/index.m3u8?fmt=ts2hls
@@ -16,9 +15,6 @@ CCTV13,http://39.135.32.236:6610/PLTV/77777777/224/3221225787/index.m3u8?$广西
 CCTV14,http://39.135.32.236:6610/PLTV/77777777/224/3221225673/index.m3u8?$广西移动
 CCTV15,http://39.135.32.236:6610/PLTV/77777777/224/3221225830/index.m3u8?$广西移动
 CCTV17,http://39.135.32.236:6610/PLTV/77777777/224/3221225833/index.m3u8?$广西移动
-CGTN,http://39.134.66.66/PLTV/88888888/224/3221225509/index.m3u8
-CCTV4K,https://p.ggiptv.com/v/4k.m3u8
-CCTV奥林匹克频道,http://39.135.41.243/PLTV/88888888/224/3221226716/index.m3u8
 CCTV1,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225777/1/index.m3u8?fmt=ts2hls
 CCTV1,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225726/1/index.m3u8?fmt=ts2hls
 CCTV2,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225706/1/index.m3u8?fmt=ts2hls
@@ -40,9 +36,6 @@ CCTV14,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/322122572
 CCTV15,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225749/1/index.m3u8?fmt=ts2hls
 CCTV17,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226027/1/index.m3u8?fmt=ts2hls
 CCTV1,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225618/index.m3u8
-CCTV4K超高清,http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
-CCTV5+,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226171/1/index.m3u8?fmt=ts2hls
-CCTV5+,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226128/1/index.m3u8?fmt=ts2hls
 CCTV2,http://iptv.tvfix.org/hls/cctv2hd.m3u8
 CCTV3,http://iptv.tvfix.org/hls/cctv3hd.m3u8
 CCTV4,http://iptv.tvfix.org/hls/cctv4hd.m3u8
@@ -56,6 +49,9 @@ CCTV14,http://iptv.tvfix.org/hls/cctv14hd.m3u8
 CCTV15,http://iptv.tvfix.org/hls/cctv15hd.m3u8
 CCTV16,http://iptv.tvfix.org/hls/cctv16hd.m3u8
 CCTV17,http://iptv.tvfix.org/hls/cctv17hd.m3u8
+CCTV5+,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226171/1/index.m3u8?fmt=ts2hls
+CCTV5+,http://39.136.66.39/cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221226128/1/index.m3u8?fmt=ts2hls
+CCTV5+,http://111.20.33.93/TVOD/88888893/224/3221226221/index.m3u8
 广东,#genre#
 雷州综合,https://0.wx1688.top/gd/tv.php?id=leizzh
 徐闻台,https://0.wx1688.top/gd/tv.php?id=xwzh
@@ -77,17 +73,7 @@ CCTV17,http://iptv.tvfix.org/hls/cctv17hd.m3u8
 GRTN文化频道,https://0.wx1688.top/gd/tv.php?id=gdwh
 深圳卫视,https://0.wx1688.top/gd/tv.php?id=szws
 其他,#genre#
-翡翠台,http://iptv.tvfix.org/hls/jade.m3u8
-明珠台,http://iptv.tvfix.org/hls/pearl.m3u8
-无线新闻台,http://iptv.tvfix.org/hls/inews.m3u8
-无线财经资讯台,http://iptv.tvfix.org/hls/financenhk.m3u8
-凤凰卫视中文台,http://hkss3.phoenixtv.com/fs/pcc.stream/.m3u8
-凤凰卫视资讯台,http://hkss3.phoenixtv.com/fs/pic.stream/.m3u8
 凤凰卫视香港台,http://hkss3.phoenixtv.com/fs/phk.stream/.m3u8
-Viu TV,https://cdn.hkdtmb.com/hls/96/index.m3u8
-香港卫视,https://myun-hw-s3.myun.tv/melj80jz/lxx27bol/1551285536499984128.m3u8
-J2,http://iptv.tvfix.org/hls/j2.m3u8
-香港国际财经台,http://uc6.i-cable.com/live_freedirect/opentvhd002_h.live/playlist.m3u8
 凤凰中文台,http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226547/1.m3u8#http://iptv.tvfix.org/hls/fhzw.m3u8#http://live.scuec.edu.cn:8080/hls/fhzw.m3u8
 凤凰资讯台,http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8#http://dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226546/1.m3u8#http://iptv.tvfix.org/hls/fhzx.m3u8#http://ott.js.chinamobile.com/TVOD/3/224/3221228098/index.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
@@ -100,6 +86,9 @@ J2,http://iptv.tvfix.org/hls/j2.m3u8
 武搏世界,http://39.134.66.66/PLTV/88888888/224/3221225547/index.m3u8
 中国功夫,http://39.134.66.66/PLTV/88888888/224/3221225604/index.m3u8
 卫视,#genre#
+CGTN,http://39.134.66.66/PLTV/88888888/224/3221225509/index.m3u8
+CCTV4K超高清,http://liveop.cctv.cn/hls/4KHD/playlist.m3u8
+CCTV奥林匹克频道,http://39.135.41.243/PLTV/88888888/224/3221226716/index.m3u8
 浙江卫视,http://hw-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8
 浙江卫视,http://39.134.65.141/PLTV/88888888/224/3221225832/index.m3u8
 浙江卫视,http://39.134.65.142/PLTV/88888888/224/3221225832/index.m3u8
