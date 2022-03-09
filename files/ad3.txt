@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: QnOYAwZrJq4ESfPkpAXuaA
+! Checksum: wW/wUHLlIUmW9ZFRfvuYWg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202203090204
-! Last Modified: 2022年03月09日 02:04
+! Version: 202203091407
+! Last Modified: 2022年03月09日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -123,6 +123,7 @@ wan.douyu.com
 douyu.com,huya.com##a[href^="https://g.wan."]
 huya.com###hy-ad,#hy-ab,#huya-ab
 g.huya.com
+www.ted.com##.gm-fp-body .justify-center.tracking-tightest
 youtube.com##.masthead-ad-control, .ad-div, .pyv-afc-ads-container, #promotion-shelf
 *_ad_$media,domain=youtube.com,3p
 youtube.com##ytd-video-masthead-ad-advertiser-info-renderer, ytm-promoted-sparkles-web-renderer, ytd-promoted-sparkles-web-renderer
@@ -137,7 +138,7 @@ youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefine
 91p20.space
 waust.at
 age.tv,agemys.com##+js(noeval-if, devtoolsDetector)
-||toutiaoimg.com/origin/$image,domain=mgtv1.net|agemys.com|subaibai.com
+||toutiaoimg.com/origin/$image,domain=mgtv1.net|agemys.com|subaibaiys.com
 !hmtv.me,imeiju.io##+js(acis,Object.defineProperty,location.href)
 ||alicdn.com/$image,domain=api.xiaomingming.org
 imomoe.*###adl,#adr
@@ -1550,6 +1551,7 @@ ubmcmm.baidustatic.com
 ##script[src="/templates/frontend/frontend-jiucao/js/jquery.lazyload.min.js"] + .footer_app_box
 ##span[title="neteasefooter"]
 ##style + .vdgdo
+##div[onclick*=".leyu"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
 ##.btn[href*=".papa9394.com"]
 ##.btn[href*=".xxmh779.com/"]
@@ -1792,7 +1794,6 @@ ubmcmm.baidustatic.com
 ##a[style*=".memexoxo.com/"]
 ##a[style*=".misigl.com/"]
 ##div[onclick*=".8tse9.com"]
-##div[onclick*=".leyu257.com:"]
 ##div[onclick*=".lyty49.com"]
 ##div[onclick*=".rwnyou.com"]
 ##iframe[src*=".xxmh891.com/"]
@@ -1809,6 +1810,8 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||phagueq.cn^
+||fydckl.com^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
@@ -8505,7 +8508,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sinaimg.cn/large/0076zeZ4gy1gw0if4mgwoj30tj03ptbj.jpg
 ||sinaimg.cn/large/007cYCbaly1ftdqurgyj4g30hs02iaaq.gif
 ||sinaimg.cn/large/007X8olVly1g8cwhgh1img30qo02igm2.gif
-||sinaimg.cn/large/008dqLKply1gtj305hxwnj308c0bnwfs.jpg
 ||sinaimg.cn/large/5431d036ly1fh6gmu6gxmg20tg02i3yr.gif
 ||sinaimg.cn/large/5431d036ly1fhxbxz31nkj20tg02ignm.jpg
 ||sinaimg.cn/large/61ac6637gy1go7az1zmucj20pc08cjts.jpg
@@ -9535,8 +9537,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||szjjzs.com/js/fe
+||szjjzs.com/js/piao.js
+||bd2020.com/gg/
+||tmioe.com/img/att/boom.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+bd2020.com##body > div[id^="z"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17434,6 +17441,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||pstatp.com/cdn/*/jquery/$script,domain=bxwx11.com
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
+||concocting.wang^
+||nokiadatabooklet.ltd^
+||hryidhf.ltd^
+||unconditionally.wang^
+||sysjazi.cn^
+||wknydhz.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -29791,7 +29804,7 @@ m.babytree.com##script + a[class]
 ://geoip.*/country.json
 ://ivwextern.
 ://lightning.*/launch/
-://matomo.
+://matomo.$domain=~matomo.org
 ://metrika.*/analytics.
 ://mint.*/?js
 ://piwik.$domain=~matomo.org|~piwik.pro
@@ -39732,6 +39745,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||uber.com/careers/apply/_log
 ||ubereats.com/_events
 ||ubereats.com/_track
+||ubuyanalytics.ubuy.com^
 ||ucoz.com/stat/
 ||ucweb.com/collect/
 ||udemy.com/api-2.0/visits/me/funnel-logs/
@@ -50451,10 +50465,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||sahibinden.com/assets/analytics*.js$script
 @@||sammobile.com/wp-content/themes/sammobile-6/assets/js/newrelic.js$~third-party
 @@||savjee.be/uploads/2020-10-27-effect-adblockers-on-google-analytics-vs-plausible/$~third-party
-@@||scorecardresearch.com/c2/plugins/streamingtag_plugin_jwplayer.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_html5.js
 @@||scorecardresearch.com/c2/plugins/streamsense_plugin_theplatform.js
 @@||scorecardresearch.com/internal-c2/plugins/streamingtag_plugin_jwplayer.js
+@@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
 @@||screen9.com/players/*/amber-google-analytics.esm.js$script,domain=api.screen9.com
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
