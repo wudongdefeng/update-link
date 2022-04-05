@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 5kz3dqCEmdK4IgZAgMTHQQ
+! Checksum: NROUIWkMELsj2X+6wK34yQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204051408
-! Last Modified: 2022年04月05日 14:08
+! Version: 202204060208
+! Last Modified: 2022年04月06日 02:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -872,7 +872,7 @@ youle55.com
 :18443/*/*-*-*.js$third-party
 :2048/b.js
 :2048/jsb?
-:22666/oklist/vars.js
+://*:*/oklist/vars.js
 :45324/cd/$subdocument,third-party
 :52789/gg/
 :538/attachment/js/
@@ -1458,6 +1458,7 @@ ubmcmm.baidustatic.com
 ##.w100b > .m_adv
 ##.wemziguanggao
 ##.wf_ad_block
+##.video-item-ads
 ##.widget-qianhuiji
 ##.widget-topadding
 ##.widget-xlxba
@@ -1847,9 +1848,12 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
+||govshanghai.cn^
+||d32bug9eb0g0bh.cloudfront.net^
 ||00-gov.cn^
 ||000123456789.site^
 ||0024aaaa.com^
+||govchaozhou.cn^
 ||008844.cc^
 ||00xvppy.cn^
 ||012.tw^$third-party
@@ -9435,12 +9439,14 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzbaike.com/main/arvixe
 ||zzbaike.com/main/host
 ||zzc.cn/b1/live_b_
+||126.net/2022/0315/c82ed9e0g00r8seoy015pd00104003cp.gif
 ||zzidc.com/images/1060.jpg
 ||zzidc.com/uploads/pintuan.jpg
 ||zzlzl.com/zb_users/theme/Frozen/style/images/banner/
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||douyinstatic.com/obj/tos-cn-i-xg/6fea25a4f79d4ec88428ce202a9aa395?.appdownv4.js
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
 szxx.com.cn###A1
@@ -17190,6 +17196,7 @@ _NYTEF.js
 _jyjy.js$script,third-party
 _muytrf.js$script,third-party
 ##a[href*=".com/tg.html?id="]
+##iframe[src*=".xxmh"][src*="?u="]
 ##a[href*=".xxmh"][href*="?u="]
 ##a[href*="://mgzs.cdn.bcebos.com/"]
 ##a[href="/ad2.html"]
@@ -26490,7 +26497,7 @@ m.babytree.com##script + a[class]
 /google_page_track
 /google_tag.
 /google_tag/*
-/google_tag_$script
+/google_tag_extra.
 /google_tracker.
 /GoogleAdnalyticsJs?
 /googleana.
@@ -29725,6 +29732,7 @@ cgi-bin/counter
 .getblueshift.com/q/
 .google-analytics.com/
 .hootsuite.com/trk?
+.informz.net/z/$image
 .innologica.com/t/
 .intercom-mail.com/q/
 .intercom-mail.com/via/$image
