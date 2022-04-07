@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: liA8p49Mp8MCE6ts22GIVw
+! Checksum: AmhXfJoZZTdpWTZOZCO8hg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204070207
-! Last Modified: 2022年04月07日 02:07
+! Version: 202204071407
+! Last Modified: 2022年04月07日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1851,6 +1851,7 @@ ubmcmm.baidustatic.com
 .8ox.cn
 ||00-gov.cn^
 ||000123456789.site^
+||hmjiayi.com^
 ||0024aaaa.com^
 ||008844.cc^
 ||00xvppy.cn^
@@ -17352,6 +17353,15 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||chudongcaiwu.xyz^
 ||yangtianc.xyz^
 ||wufeilong.top^
+||eslipdd.ltd^
+||lizhuo.fun^
+||dewalt-sales.com^
+||dingdangcake.cn^
+||zangyitang.wang^
+||nmtlgbv.cn^
+||zzcyy.cn^
+||yuuuxi.top^
+||1w73a5d.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -39817,7 +39827,6 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||sourcepoint-mms.aetv.com^
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
-||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
 ||trustarc.mgr.consensu.org/get?
 ||twus-mms.theweek.com^
 ||usgamer-us.usgamer.net^
@@ -50253,7 +50262,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||mozu.com^*/monetate.js$script,domain=acehardware.com
 @@||mparticle.com/js/v2/*/mparticle.js$script,domain=cnbc.com
 @@||mpsnare.iesnare.com/general5/wdp.js$domain=usbank.com
-@@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|login.skype.com|vitacost.com
+@@||mpsnare.iesnare.com/snare.js$domain=citi.com|citibank.com|enmasse.com|equifax.ca|login.skype.com|vitacost.com
 @@||mpsnare.iesnare.com/wu/snare.js$domain=westernunion.com
 @@||msecnd.net/scripts/jsll-$script,domain=forms.microsoft.com|office.com|sharepoint.com|teams.microsoft.com
 @@||musiclab.chromeexperiments.com/bin/lib/angulartics-google-analytics.js
