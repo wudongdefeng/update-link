@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: F0ZARETMbhy+ORSo+h+5lg
+! Checksum: 5gZrWxMyQMlRVu9UVnOgNQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202204250204
-! Last Modified: 2022年04月25日 02:04
+! Version: 202204251408
+! Last Modified: 2022年04月25日 14:08
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -188,6 +188,7 @@ youle55.com
 -*-*-*-*.panda^$script,third-party
 -1688-wp-media/ads/
 -880-80-4.jpg
+.vip/gg/
 -90mh-gg.
 .bid/ads/
 .blog/ads/
@@ -1861,6 +1862,7 @@ ubmcmm.baidustatic.com
 ##img[onclick*="/ayx700.com/"]
 ##img[onclick*="/c7.net/"]
 !----------------------------------Ads-Union----------------------------------!
+||jinkege.com^
 .8ox.cn
 ||00-gov.cn^
 ||seainan333.com^
@@ -17438,6 +17440,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 !#Novels ads union
 ||hntk.top^
 ||khlgdkxien.com^
+||jinrui.online^
+||kinleung.cn^
+||smartmuchang.com^
+||jmypaxioemnf.com^
+||qdydwlkj3.top^
 ||lawful.wang^
 ||65432.shop^
 ||xianggou.club^
@@ -30444,6 +30451,7 @@ _mongo_stats/
 ||omappapi.com^
 ||omtrdc.net^
 ||oppuz.com^
+||opti-digital.com^
 ||ostrichesica.com^
 ||p-analytics.life^
 ||p2r14.com^
@@ -35845,6 +35853,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.piksel.com^
 ||analytics.pinterest.com^$third-party
 ||analytics.pointdrive.linkedin.com^
+||analytics.pop2watch.com^
 ||analytics.prezly.com^
 ||analytics.prod.aws.ecnext.net^
 ||analytics.qualityunit.com^
@@ -38442,6 +38451,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stargame.com/g.js
 ||stat.ws.126.net^
 ||statics.itc.cn^*/spm.js$script,domain=sohu.com
+||stats.hanmaker.com^
 ||sugs.m.sm.cn^
 ||t.hypers.com.cn^
 ||t.rainide.com^
@@ -39006,6 +39016,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.faceitanalytics.com^
 ||analytics.feedly.com^
 ||analytics.footballdb.com^
+||analytics.freemake.com^
 ||analytics.getshogun.com^
 ||analytics.ghostery.com^$subdocument,domain=www.ghostery.com
 ||analytics.global.sky.com^
@@ -39155,6 +39166,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deepl.com/web/statistics
 ||deezer.com/ajax/gw-light.php?method=triton.pixelTracking&
 ||deliver.ptgncdn.com^
+||deliveroo.com^*/events
 ||deliveryrank.com/drapp070eb2deb1932e2101e6.js
 ||dellcdn.com/csb/scripts/csb-boomr.$domain=dell.com
 ||delta.com/datacollect
@@ -39217,6 +39229,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||event-api.reverb.com^
 ||eventlog.jackpot.de^
 ||events-service.coinbase.com^
+||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
 ||events.practo.com^
 ||events.privy.com^
@@ -39456,6 +39469,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||messiah.id/js/script.js
 ||metacrawler.com/pingback
 ||metrics.bangbros.com^
+||metrics.freemake.com^
 ||metrics.hackerrank.com^
 ||metrics.roblox.com^
 ||metrics.spkt.io^
@@ -40031,10 +40045,29 @@ medicalxpress.com,techxplore.com##.embed-responsive-trendmd
 ||src.ebay-us.com/*=usllpic$script,domain=ebay.com
 /^https?:\/\/js.*\/t\/[0-9]{3}\/[0-9]{3}\/[a-z0-9]{7,8}\.js/$script,third-party
 /^https?:\/\/(.+?\.)?hardware\.info\/js\/[a-z]{1,}\/[0-9]{4,}\.js/$domain=hardware.info
+||d276.ourmidland.com^
+||d810.mysanantonio.com^
 ||dull.bankofamerica.com^$script,~third-party,xmlhttprequest
+||f775.thehour.com^
+||h353.ncadvertiser.com^
+||h559.stamfordadvocate.com^
 ||halifax-online.co.uk/scripts/16c9d93d/
+||j198.registercitizen.com^
+||l936.expressnews.com^
+||o398.trumbulltimes.com^
+||q777.sfchronicle.com^
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
+||t570.wiltonbulletin.com^
 ||tilt.bankofamerica.com^
+||u652.myplainview.com^
+||u927.sfgate.com^
+||w740.newstimes.com^
+||y738.nhregister.com^
+||y820.darientimes.com^
+||y900.greenwichtime.com^
+||z211.yourconroenews.com^
+||z492.ctinsider.com^
+||z680.beaumontenterprise.com^
 ||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
 ||auctionzip.com/eKtvxkQ2/init.js
@@ -49556,6 +49589,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||dolphin.deliver.ifeng.com^
 ||douyucdn.cn/fish3/1.gif
 ||eastmoney.com/web/prd/jump_tracker.js
+||eclick.360doc.com^
 ||eclick.baidu.com^
 ||ems.youku.com/event?
 ||err.ifengcloud.ifeng.com^
@@ -49563,6 +49597,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||fclog.baidu.com^
 ||flog.pressplay.cc^
 ||forum.zuvio.com.tw/api/article/finish
+||frog.yuanfudao.com^
 ||ftchinese.com/js/log.js
 ||funshion.com/interface/
 ||gentian-frd.hjapi.com^
@@ -50462,6 +50497,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ec.europa.eu/eurostat/databrowser/assets/analytics/piwik.js$script,~third-party
 @@||ect.se.com/cbt/app/js/util/angularytics.min.js$script,~third-party
 @@||editorx.com/_api/*count?type$~third-party
+@@||enchambered.com^*/googleanalytics_2.js?
 @@||ensighten.com^*/Bootstrap.js$domain=americanexpress.com|britishairways.com|capitalone.com|caranddriver.com|cart.autodesk.com|citi.com|citigold.com.sg|citizensbank.com|dell.com|fidelity.com|france24.com|homedepot.com|hp.com|norton.com|rfi.fr|sbs.com.au|sfgate.com|staples.com|t-mobile.com|target.com|verizonwireless.com|williamhill.com|womenshealthmag.com|zales.com
 @@||ensighten.com^*/code/$script
 @@||ensighten.com^*/scode/$script,domain=norton.com
