@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pYcot2w8aTQdEzAIWP7bnA
+! Checksum: H+73etFDbctEg8v5beFTRA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202205211407
-! Last Modified: 2022年05月21日 14:07
+! Version: 202205220205
+! Last Modified: 2022年05月22日 02:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1870,6 +1870,7 @@ ubmcmm.baidustatic.com
 !----------------------------------Ads-Union----------------------------------!
 .8ox.cn
 ||00-gov.cn^
+||cherryblossoms.top^
 ||000123456789.site^
 ||0024aaaa.com^
 ||008844.cc^
@@ -9651,6 +9652,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+jrlt2.com###hd + .wp
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17446,7 +17448,7 @@ smjb.net##div[style*="height: 50%"]
 ||boluoxs.com/js/digu.js
 ||bookrb.com/images/jtt
 ||bxwxorg.com/ui/vue/element.
-||clewxc.com/xd2/
+||clewxc.com/xd3/
 ||d3iih5w7xp5hdg.cloudfront.net^
 ||dabizi.net/images/pcad.png
 ||dobiez.com/statics/wap_v1/js/qwd.
@@ -17607,6 +17609,11 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||dwrz5az.cn^
 ||xhl161.com^
 ||haodewl.cn^
+||sxqyuming.xyz^
+||wmpyuyj.cn^
+||bjbdlt.com.cn^
+||papzp.com^
+||ifaeqvt.cn^
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
 ##a[href*=".233787.com/"]
@@ -30870,6 +30877,7 @@ _mongo_stats/
 ||experianmatch.info^
 ||ezodn.com^
 ||ezstat.ru^
+||fairdatacenter.de^
 ||fastemu.co^
 ||faster-trk.com^
 ||fastfinch.co^
@@ -30951,7 +30959,6 @@ _mongo_stats/
 ||p2r14.com^
 ||pdflive.org^
 ||permutive.app^
-||pijper.io^
 ||pixrealm.com^
 ||pjstat.com^
 ||progmxs.com^
@@ -39038,6 +39045,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||marktplaats.net/cnt/
 ||nextday.media/static/tags/
 ||npo.nl/divolte/tt/web-event?$domain=zapp.nl
+||pijper.io/visits/
 ||sp.dpgmedia.net^
 ||stat.24liveplus.com^
 ||statistics.rbi-nl.com^
@@ -39658,6 +39666,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collect.f5.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.cint.com^
+||collector.github.com^
 ||collector.githubapp.com^
 ||collector.megaxh.com^
 ||collector.pi.spectrum.net^
@@ -51498,7 +51507,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||lzstatic.com^*/gdpr/consentHandler/google_analytics.js$domain=ladenzeile.de
 @@||lzstatic.com^*/gdpr/consentHandler/optimizely.js$domain=ladenzeile.de
 @@||online.mps-gba.de/praeludium/ams.js?$domain=auto-motor-und-sport.de
-@@||online.mps-gba.de/praeludium_src/fix_addons/noJump.js$domain=auto-motor-und-sport.de
+@@||online.mps-gba.de/praeludium/caravAFW.js?$domain=caravaning.de
 @@||optimizely.com^$script,domain=kabeleins.de|prosieben.de|prosiebenmaxx.de|ran.de|sat1.de|sixx.de
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
@@ -51725,6 +51734,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||cm-widget.nakanohito.jp/img/$image
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||collect.igodigital.com/collect.js$domain=enoteca.co.jp
+@@||d-card.jp/st/common/js/googleTagManager.js
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||dev.visualwebsiteoptimizer.com^$script,domain=internetorder.dominos.jp
