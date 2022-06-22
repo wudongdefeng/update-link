@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OZFLpuDRLr0yGZdxwosW5g
+! Checksum: OV8e87N6G76bXZdltiWVXQ
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202206220204
-! Last Modified: 2022年06月22日 02:04
+! Version: 202206221407
+! Last Modified: 2022年06月22日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1956,6 +1956,7 @@ ubmcmm.baidustatic.com
 ||sosrom.cn^
 ||xtp01.com^
 !2302
+||666597.xyz^
 ||666576.xyz^
 ||666577.xyz^
 ||666579.xyz^
@@ -9654,8 +9655,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzsky.cn/images/a_d_
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||vidcrunch.com/integrations/*_Responsive_*_DFP_$domain=discuss.com.hk
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+firefoxchina.cn##a[track_key="sites_saoma"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 gpcxw.com###AA2
@@ -17546,6 +17549,12 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 @@||zmtt.net^$script,domain=luoqiuzw.com
 !#Novels ads union
 !2306
+||guoyang.us^
+||yundaxue.love^
+||hlryy.top^
+||bufan.in^
+||rmt.plus^
+||moxiang.plus^
 ##a[href*="/jianjianjiao.top"]
 ||1kcx.hk^
 ||biercloud.love^
@@ -17635,6 +17644,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||zhuomengwangluo.com^
 ||zwgege.cn^
 !2304
+||fmgfqwe.xyz^
 ||172872.com^
 ||77tel.com^
 ||aa9q.cn^
@@ -17726,6 +17736,8 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=00ksw.com|01zww.
 ||ienglish.ren^
 ||jsk.wang^
 !2206
+!2311
+##a[href*=".meta-hh.com/"]
 !2403
 ##a[href*=".impreshunz.com/"]
 ||readysugerfree.top^
@@ -23034,6 +23046,7 @@ _box_ad_
 /yksmartbanner.
 /z.zolapp.
 =Ad_ZPlusGoods&
+=window.awall.adblockwalltemplatefetchdef&
 !------------------------General element hiding rules-------------------------!
 ###doyoo_mon_mask
 ###doyoo_monitor
@@ -30291,6 +30304,7 @@ cgi-bin/counter
 /beacon.krxd.net/*
 /beaconimages.netflix.net/*$image
 /click.*/q/*$image
+/click.em.nike.com/*$image
 /click.email.$image
 /clicks.*/q/*$image
 /clicks.email.$image
@@ -37123,6 +37137,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||liverail.com/?metric=
 ||liverail.com/track/?
 ||livestats.kaltura.com^
+||loader-cdn.azureedge.net^
 ||loader.zeroform.com^
 ||location3.com/analytics/
 ||log-*.previewnetworks.com^
@@ -37318,7 +37333,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||odysee.com/api/v1/metric/
 ||odysee.com/log/
 ||ohnorobot.com/verify.pl?
-||olytics.omeda.com^$script,third-party
+||olytics.omeda.com^
 ||onecount.net/onecount/oc_track/
 ||onescreen.net/os/static/pixels/
 ||onespot-tracking.herokuapp.com^
@@ -37801,6 +37816,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.cdn.circlesix.co^
 ||tags.clickagy.com^
 ||tags.creativille.co.uk^
+||tags.fullcontact.com^
 ||tags.master-perf-tools.com^
 ||tags.newscgp.com^
 ||tags.refinery89.com^
@@ -38105,6 +38121,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vvhp.net/read/view.gif
 ||vwdealerdigital.com/cdn/sd.js
 ||w3track.com/newtrk/$third-party
+||w4o7aea80ss3-a.akamaihd.net^
 ||wallkit.net^*/user/event
 ||wantlive.com/pixel/
 ||wco.crownpeak.com^
@@ -39809,6 +39826,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lastpass.com/dist/scripts/analyticsjs
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
+||lexology.com/pd.js
 ||lightstep.medium.systems^*/reports
 ||link.kogan.com^
 ||link2.strawberrynet.com^$image
@@ -40443,7 +40461,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.opentable.jp^
 ||track.opentable.nl^
 ||track.opentable.sg^
-||akamaihd.net^$image,domain=globalnews.ca
+||akamaihd.net^$image,domain=globalnews.ca|stcatharinesstandard.ca
 ||jeremiahlee.com/fanboynz.js
 ||hubspot.com/collected-forms/$xmlhttprequest,domain=confection.io
 ||s3.amazonaws.com/downloads.mailchimp.com/$script,domain=confection.io
@@ -40453,7 +40471,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bing.com/fd/ls/lsp.aspx
 ||bing.com^*/glinkping.aspx$ping,xmlhttprequest
 ||bing.com^*/GLinkPingPost.aspx$ping,xmlhttprequest
-medicalxpress.com,techxplore.com##.embed-responsive-trendmd
+##.embed-responsive-trendmd
 ||aliyuncs.com/r.png
 ||gj.mmstat.com^
 ||oneid.mmstat.com^
@@ -49966,7 +49984,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||ia.ekstrabladet.dk^
 ||jv.dk/assets/statistics/
 ||2ememain.be/c3650cdf-
-||2ememain.be/px/fbif?
+||2ememain.be/px/
 ||actu.fr/assets/js/smarttag5280-1.js
 ||aliasdmc.fr/js/general_sts.js
 ||allocine.fr/_/geolocalize
@@ -50314,6 +50332,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||stat.novinky.cz^
 ||stat.super.cz^
 ||statistics.csob.cz^
+||2dehands.be/px/
 ||aa.tweakers.nl^
 ||analytics.rambla.be^
 ||bc34.wijnvoordeel.nl^
@@ -50639,6 +50658,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tracker.publico.pt^
 ||uai.com.br^*/analytics.js
 ||uol.com.br/stats?
+||agrointel.ro/ga.js
+||agrointel.ro/track.js
 ||analytics.okazii.ro^
 ||views.romaniatv.net^
 ||2ch.hk^*/tracker.js?
@@ -51411,6 +51432,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||orginio.de/api/analytics/$~third-party,xmlhttprequest
 @@||rtl.de^*/videotracking.min.js$domain=rtl.de
 @@||scdn.cxense.com/cx.cce.js$script,domain=handelsblatt.com
+@@||shoutcast.hubu.fm/stats?sid=$script,~third-party
 @@||showheroes.com/playlist/vast3?$xmlhttprequest,domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/publishertag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
 @@||showheroes.com/pubtag.js$domain=bz-berlin.de|kochbar.de|rtl.de|rtl2.de
@@ -51513,6 +51535,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||collectandgo.be^*/utag.sync.js
 @@||d2zv6vzmaqao5e.cloudfront.net/css/foodticket/*_google_analytics.js
 @@||googletagmanager.com/gtm.js$script,domain=beterbed.nl|finanzen.ch|mediamarkt.nl
+@@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||optimizely.addmilk.nl^$image,domain=simyo.nl
 @@||stock.skoda.be/assets/scripts/analytics/$script,~third-party
 @@||travelbags.nl^*/web-vitals.$~third-party
