@@ -1,1 +1,1 @@
-2022-07-13 11:40:10.375377 ==>> The size of all files in the folder ../files = 5.74 MB
+2022-07-13 23:41:29.376353 ==>> The size of all files in the folder ../files = 4.43 MB
