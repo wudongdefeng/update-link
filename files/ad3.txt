@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: if8sI6la7CGJzaOSveqZxA
+! Checksum: hh26EUXgFyLvX2wlt2Imkw
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207151407
-! Last Modified: 2022年07月15日 14:07
+! Version: 202207160205
+! Last Modified: 2022年07月16日 02:05
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1541,7 +1541,6 @@ ubmcmm.baidustatic.com
 ##a[href*=".com/?Extend="]
 ##a[href*=".com/Register.aspx?aid="]
 ##a[href*=".com/Register/?a="]
-##a[href*=".com/register/?i_code="] > img
 ##a[href*=".com?aff="]
 ##a[href*=".com?intr="]
 ~umeng.com##a[href*=".umeng.com"]:not([href="http://www.umeng.com/"]) > img
@@ -1550,7 +1549,7 @@ ubmcmm.baidustatic.com
 ##a[href*="/?intr="]
 ##a[href*="/Register?a="]
 ##a[href*="/ads/adscenter."]
-##a[href*="/entry/register/?i_code="]
+##a[href*="/register/?i_code="] > img
 ##a[href*=":10443/"] > img[src$="gif"]
 ##a[href*="?channelCode="] > img[src*=".com:"]
 ##a[href*="?invite_code="] > img[src*=".com"]
@@ -1611,7 +1610,6 @@ ubmcmm.baidustatic.com
 ##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="120px"]
 ##div[style=" max-width:983px;  margin:0 auto;"] > a > img[height="60px"]
 ##div[style="position: fixed;top: 60px;right:0;z-index:999;width:250px"]
-##div[style="text-align:center;"] > a[href*="/register/?i_code="]
 ##img#adv1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
@@ -1932,6 +1930,7 @@ ubmcmm.baidustatic.com
 ||15h3na0.xyz^
 ||2077.tech^
 ||21cnbm.com^
+||32258228.com^
 ||50039tk.com^
 ||551vip.xyz^
 ||6399tp.com^
@@ -1956,12 +1955,17 @@ ubmcmm.baidustatic.com
 ||666683.xyz^
 ||666684.xyz^
 ||666722.xyz^
+||666723.xyz^
 ||69688qp.com^
 ||7080ys.top^
+||777753.net^
 ||884329.com^
+||884352.com^
 ||885842.com^
+||998k.at^
 ||aaapvu.cn^
 ||abbqhst.cn^
+||ahh6.cn^
 ||aizhigu.tv^
 ||ajzs.xyz^
 ||ajzsa.xyz^
@@ -1986,20 +1990,26 @@ ubmcmm.baidustatic.com
 ||badloniop.top^
 ||badmniop.top^
 ||baishui.me^
+||bdzkrl.cn^
 ||bestnfj.com^
+||bob5379.com^
+||bobdz.com^
 ||bpnhgan.cn^
 ||btaawy.cn^
 ||bwsvftq.cn^
 ||byfft.top^
 ||byqiu.xyz^
+||byznb.xyz^
 ||caimei.me^
 ||cckb.online^
 ||cdweikebaba.xin^
 ||ce33m7.com^
+||changchunyitian.online^
 ||cheynewalk.com^
 ||china-india.wang^
 ||cjwtkm.cn^
 ||clear7.love^
+||cmgjqqu.cn^
 ||cnglish.site^
 ||colour5.top^
 ||cosyroom.biz^
@@ -2011,6 +2021,7 @@ ubmcmm.baidustatic.com
 ||dabaicai.ink^
 ||daibu.me^
 ||danaoren.shop^
+||dcfh7vk.cn^
 ||dhrfnyw.xyz^
 ||dididi.love^
 ||dkxobcs.cn^
@@ -2040,6 +2051,7 @@ ubmcmm.baidustatic.com
 ||gfnormal00aj.com^
 ||gfnormal00ak.com^
 ||gfnormal00an.com^
+||gfnormal07ae.com^
 ||gfvip06ab.com^
 ||gfvip06af.com^
 ||gfvip06al.com^
@@ -2056,6 +2068,7 @@ ubmcmm.baidustatic.com
 ||gneunbiy.rest^
 ||gnfunbiz.rest^
 ||gngunbib.rest^
+||gnhunbia.rest^
 ||goasdfa.top^
 ||gocyghol.vip^
 ||gogpix.cn^
@@ -2083,6 +2096,7 @@ ubmcmm.baidustatic.com
 ||htgsbk.top^
 ||huodong.press^
 ||hust.cx^
+||hxcrlt.cn^
 ||hzxlly.com^
 ||iceplant.hk^
 ||ifdcvns.cn^
@@ -2101,6 +2115,7 @@ ubmcmm.baidustatic.com
 ||jphfqq.cn^
 ||jpnbhyba.xyz^
 ||k31bpzf.xyz^
+||k3uihu.xyz^
 ||kengi.top^
 ||kf94.club^
 ||kgsz.cn^
@@ -2117,6 +2132,7 @@ ubmcmm.baidustatic.com
 ||kzecc.com^
 ||l14.xyz^
 ||l45.xyz^
+||l7kuyg.site^
 ||l90.xyz^
 ||lacerate.club^
 ||lantian.love^
@@ -2129,6 +2145,7 @@ ubmcmm.baidustatic.com
 ||lianliankanms.top^
 ||ling07.icu^
 ||lingke03.top^
+||liutt.online^
 ||liuzhen.love^
 ||ljmzugo.cn^
 ||lknmnnr.xyz^
@@ -2140,6 +2157,7 @@ ubmcmm.baidustatic.com
 ||lyggt.top^
 ||mbveryu.top^
 ||mbxsku.cn^
+||mdjf9vh9.shop^
 ||mdjf9vh9.xyz^
 ||mdjxm.com^
 ||mdjxz.com^
@@ -2152,6 +2170,7 @@ ubmcmm.baidustatic.com
 ||mqjeut5.com^
 ||mthdqs.cn^
 ||mttty.top^
+||mywei.love^
 ||neornad.cn^
 ||nfhtech.com^
 ||nfpplus.com^
@@ -2166,6 +2185,7 @@ ubmcmm.baidustatic.com
 ||okmjd.com^
 ||olwsx.com^
 ||onekeyedu.com^
+||outrepublicanshelf.com^
 ||oyybgs.cn^
 ||pfskzj.cn^
 ||piilvhtu.cn^
@@ -2218,6 +2238,7 @@ ubmcmm.baidustatic.com
 ||trznrug.cn^
 ||tuiquanqiu.cn^
 ||txie.club^
+||u0083.com^
 ||ugkmihh.cn^
 ||uiuspakmn.bar^
 ||unpfqc9.com^
@@ -2260,6 +2281,7 @@ ubmcmm.baidustatic.com
 ||xmsrd.com^
 ||xn--gov-x68dy61b.shop^
 ||xox8829.com^
+||xox8863.com^
 ||xox8956.com^
 ||xox9298.com^
 ||xox9325.com^
@@ -2301,14 +2323,6 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
-||mywei.love^
-||gfnormal07ae.com^
-||bdzkrl.cn^
-||l7kuyg.site^
-||dcfh7vk.cn^
-||gnhunbia.rest^
-||liutt.online^
-||outrepublicanshelf.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -8993,7 +9007,6 @@ ubmcmm.baidustatic.com
 ||yzytb.com^
 ||z-xiao.xyz^
 ||z2blog.com^$third-party
-||z4a.net^
 ||zacao.wang^
 ||zaitouwang.com^
 ||zaixianweiyuanchuang.cn^
@@ -9335,10 +9348,10 @@ ubmcmm.baidustatic.com
 ||cbjs.baidu.com^
 ||cpro.baidu.com^
 ||cpro.baidustatic.com^
-||d3t3z4teexdk2r.cloudfront.net^
 ||d15cjcet1djbmv.cloudfront.net^
 ||d26yfyk0ym2k1u.cloudfront.net^
 ||d32bug9eb0g0bh.cloudfront.net^
+||d3t3z4teexdk2r.cloudfront.net^
 ||darren01.oss-cn-beijing.aliyuncs.com^
 ||drmcmm.baidu.com^
 ||duiwai.baidu.com^
@@ -10472,6 +10485,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||alitui.weibo.com^
 ||alixixi.com/adsview/
 ||aliyuncs.com/ad/jd-smoofit-ad.jpg
+||aliyuncs.com/gg/
 ||aliyuncs.com/ghdb.gif
 ||aliyuncs.com/public/v1/js/ad-config.
 ||aliyuncs.com/vss/haotu.js
@@ -14169,6 +14183,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||yzs.com/d/file/2020/06/21/5358e14b4556663a91f145f0635f95de.jpg
 ||yzz.cn/global_gg/
 ||z.nowscore.com^
+||z4a.net/images/2022/05/12/pNOqhb.gif
 ||z4bbs.com/adst/
 ||zantj.com/diao
 ||zbjimg.com/static/union/
@@ -15920,7 +15935,7 @@ outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
 tools.2345.com##._hb-box + .mod
 qq.com##._switchad
 pincong.rocks##.a-a
-pianba.tv##.a-loading
+cqzjt.com,pianba.tv##.a-loading
 gamer.com.tw##.a-mercy-d:not([href*=".gamer."])
 159i.com##.a1.style25
 159i.com##.a1d
@@ -20077,7 +20092,6 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
-@@||210.40.130.91^*/ad.css?$stylesheet
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
@@ -20182,6 +20196,7 @@ gohome.com.hk#@#div[id^="div-gpt-ad"]
 @@||192.168.*/advertising_$stylesheet
 @@||199it.com^$generichide
 @@||2018x.bid/adview.js
+@@||210.40.130.91^*/ad.css?$stylesheet
 @@||2345.com/images/activity/20171111/open/j/close.png
 @@||31vcd.com/player/kuyun.js
 @@||360buyimg.com/ad/$domain=jd.com
@@ -26316,6 +26331,7 @@ m.babytree.com##script + a[class]
 /comscore_pageview
 /comscore_ping
 /comscore_stats.
+/ComscoreAnalytics.
 /comscorebeacon.
 /comscorepageviewcomscorekw=
 /ComScorePlugin.
@@ -26493,6 +26509,7 @@ m.babytree.com##script + a[class]
 /datacapture/track
 /datacollectcode?
 /datadome/*
+/DatazoomAnalytics.
 /DavplusAnalytics.
 /dbdm-events.
 /dbdm-events/*
@@ -27147,6 +27164,7 @@ m.babytree.com##script + a[class]
 /googletag.js
 /googletagmanager.js
 /googletagmanager_backend.js
+/googletagmanageranalytics.
 /googleTagManagerTrackEvent.
 /googletrack.js
 /googleTracker.
@@ -27533,6 +27551,7 @@ m.babytree.com##script + a[class]
 /KISSmetricsTrackCode.
 /kiwip.js
 /klaviyo_analytics.
+/KochavaAnalytics.
 /kontera.js
 /konterayahoooo.
 /kooomo.tracker.
@@ -32767,6 +32786,7 @@ _mongo_stats/
 ||pureairhits.com^$third-party
 ||purevideo.com^$third-party
 ||pushauction.com^$third-party
+||pushspring.com^$third-party
 ||pvd.to^$third-party
 ||pxaction.com^$third-party
 ||pxf.io^$image,script,third-party
@@ -40502,6 +40522,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.gateio.ch^
 ||stats.hd24.watch^
 ||stats.ibtimes.co.in^
+||stats.ibtimes.sg^
 ||stats.justpaste.it^
 ||stats.pandora.com^
 ||stats.paste2.org^
@@ -51501,6 +51522,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ots.webtrends-optimize.com/$xmlhttprequest,domain=tvlicensing.co.uk
 @@||oyster.com/wp-content/plugins/smartertravel-shared/assets/js/tracking.min.js$~third-party
 @@||pagure.io/static/issues_stats.js$~third-party
+@@||parsely.com/keys/wrif.com/p.js$script,domain=wrif.com
 @@||paypal.com/xoplatform/logger/api/logger$domain=play.leagueofkingdoms.com
 @@||paypalobjects.com/*/pageView.js$script,domain=paypal.com
 @@||paypalobjects.com/web/*/gAnalytics.js$script,domain=paypal.com
@@ -51617,6 +51639,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||tw.cx/c?a=$xmlhttprequest,domain=justwatch.com
 @@||udottraffic.utah.gov/javascripts/Piwik.js
 @@||uefa.com/inc/js/core/projects/statistics/statistics.js?$script
+@@||ultimaterewardspoints.chase.com/web-analytics/ur-reporting.js$~third-party
 @@||uniqlo.com^*/trackingservice/$~third-party
 @@||unpkg.com/@optimizely/optimizely-sdk$script,domain=talktalk.co.uk
 @@||usbank.com^*/adrum.js?$~third-party
