@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: RUWSjbiUreLDpalf67Dnlw
+! Checksum: if8sI6la7CGJzaOSveqZxA
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207150205
-! Last Modified: 2022年07月15日 02:05
+! Version: 202207151407
+! Last Modified: 2022年07月15日 14:07
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -2301,6 +2301,14 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
+||mywei.love^
+||gfnormal07ae.com^
+||bdzkrl.cn^
+||l7kuyg.site^
+||dcfh7vk.cn^
+||gnhunbia.rest^
+||liutt.online^
+||outrepublicanshelf.com^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -9327,6 +9335,7 @@ ubmcmm.baidustatic.com
 ||cbjs.baidu.com^
 ||cpro.baidu.com^
 ||cpro.baidustatic.com^
+||d3t3z4teexdk2r.cloudfront.net^
 ||d15cjcet1djbmv.cloudfront.net^
 ||d26yfyk0ym2k1u.cloudfront.net^
 ||d32bug9eb0g0bh.cloudfront.net^
@@ -20068,6 +20077,7 @@ brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
 !---------------------------------URL Whitelist-------------------------------!
 @@&adurl=http://$domain=360bifen.cc|360bifen.com
+@@||210.40.130.91^*/ad.css?$stylesheet
 @@.adserver.$domain=litv.tv
 @@.com/adv/$domain=my.ctrip.com
 @@.com/js/a_d/$domain=cocomanga.com|cocomanhua.com
@@ -27671,8 +27681,8 @@ m.babytree.com##script + a[class]
 /logaholictracker.
 /logAjaxErr_
 /LogAmpHit?
-/loganalyticsevent?
 /LogAnalysisTracker/*
+/loganalyticsevent?
 /logAutoMicroConversion?
 /logclick.
 /logcollect.
@@ -30489,6 +30499,7 @@ cgi-bin/counter
 /media.sailthru.com/5ik/1k4/9/*.gif
 /newsletter/log/*$image
 /newsletter/read?s=$image
+/newtrackingscript.
 /notifications.googleapis.com/email/t/*
 /notifications/beacon/*
 /open.aspx?
@@ -30850,6 +30861,7 @@ _mongo_stats/
 ||ldnlyap.com^
 ||leadhit.io^
 ||liadm.com^
+||lite-cdn.com^
 ||liveyield.com^
 ||lltrck.com^
 ||loloclicks.biz^
@@ -40138,6 +40150,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||medium.com/_/clientele/reports/performance/
 ||meduza.io/stat/
 ||messari.io/js/wutangtrack.js
+||messenger.com/ajax/bnzai?
 ||messiah.id/api/event
 ||messiah.id/js/script.js
 ||metacrawler.com/pingback
@@ -51422,6 +51435,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
 @@||leadpages.io/analytics/v1/observations/capture?$xmlhttprequest
+@@||leanplum.com^$domain=arkadium.com
 @@||legendstracking.com/js/legends-tracking.js$~third-party
 @@||lenovo.com/_ui/desktop/common/js/AdobeAnalyticsEvent.js$script,~third-party
 @@||lenovo.com/fea/js/adobeAnalytics/$script,~third-party,xmlhttprequest
@@ -51438,7 +51452,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||matomo.miraheze.org/matomo.js$script,~third-party
 @@||maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net|elgato.com|filld.com|ibanez.com
 @@||maxmind.com^*/geoip.js$domain=aljazeera.com|ballerstatus.com|bikemap.net|carltonjordan.com|cashu.com|coolsport.tv|dereon.com|dr.dk|driftinnovation.com|everydaysource.com|fab.com|girlgames4u.com|incgamers.com|ip-address.cc|maaduu.com|qatarairways.com|sat-direction.com|sotctours.com|stoli.com|vibe.com
-@@||maxmind.com^*/geoip2.js$domain=boostedboards.com|donorschoose.org|elgato.com|fallout4.com|filld.com|ibanez.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
+@@||maxmind.com^*/geoip2.js$domain=boostedboards.com|donorschoose.org|elgato.com|fallout4.com|filld.com|ibanez.com|instamed.com|metronews.ca|mtv.com.lb|runningheroes.com|teslamotors.com
 @@||metrics.torproject.org^$~third-party
 @@||mlbstatic.com/mlb.com/adobe-analytics/$script,domain=mlb.com
 @@||moengage.com/v2/$xmlhttprequest,domain=olx.com.lb
