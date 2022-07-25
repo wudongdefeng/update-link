@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: o9CTLSTPhIG/q7/hSeAwzA
+! Checksum: 0mQzN0m/vqUyBeGxjR/stg
 ! Title: AdFilters
 ! Expires: 12 hours
-! Version: 202207251407
-! Last Modified: 2022年07月25日 14:07
+! Version: 202207260206
+! Last Modified: 2022年07月26日 02:06
 ! Homepage: https://adf.minggo.eu.org
 ! 本规则合并自乘风视频广告过滤规则、EasylistChina、EasylistLite、CJX'sAnnoyance、EasyPrivacy，感谢各位大大的分享！
 ! 仅合并规则，未做其余任何处理
@@ -1924,6 +1924,7 @@ ubmcmm.baidustatic.com
 ##a[href*=".meta-kp.com/"]
 ##a[href*=".meta-wg.com/"]
 ##a[href*=".nffhome.com/"]
+##a[href*=".nfkonline.com/"]
 ##a[href*=".nfqtech.com/"]
 ##a[href*=".nfrgeek.com:"]
 ##a[href*=".nfylife.com/"]
@@ -1952,6 +1953,7 @@ ubmcmm.baidustatic.com
 ||2i0da8u7.cn^
 ||2ppgsmeh.cn^
 ||32258228.com^
+||3dcn.me^
 ||3xhmhct.cn^
 ||476bu131.cn^
 ||49468220.com^
@@ -1990,6 +1992,7 @@ ubmcmm.baidustatic.com
 ||666732.xyz^
 ||666733.xyz^
 ||666734.xyz^
+||666735.xyz^
 ||69688qp.com^
 ||7080ys.top^
 ||777753.net^
@@ -2053,6 +2056,7 @@ ubmcmm.baidustatic.com
 ||cengbalx.fun^
 ||ceshi10.ink^
 ||cfhlrai.cn^
+||cfkkdhs.cn^
 ||changchunyitian.online^
 ||cheynewalk.com^
 ||china-india.wang^
@@ -2074,6 +2078,7 @@ ubmcmm.baidustatic.com
 ||daizi.love^
 ||danaoren.shop^
 ||dcfh7vk.cn^
+||dengbalt.fun^
 ||dfsvhv88.com^
 ||dhrfnyw.xyz^
 ||dididi.love^
@@ -2084,6 +2089,7 @@ ubmcmm.baidustatic.com
 ||dxzky.love^
 ||dyjcydn.cloud^
 ||edzyhx.cn^
+||eeoqsr.cn^
 ||ekwibgl.cn^
 ||enrosr.cn^
 ||eqj2a3bx.cn^
@@ -2190,6 +2196,7 @@ ubmcmm.baidustatic.com
 ||j4shabt8.cn^
 ||jamierace.com^
 ||jeproadylabs.com^
+||jhkj.work^
 ||jiabo.shop^
 ||jintan.fun^
 ||jiulela.ltd^
@@ -2287,6 +2294,7 @@ ubmcmm.baidustatic.com
 ||nvqhbij.cn^
 ||obnpazq.cn^
 ||oiuqwppcsdf.com^
+||ojgtbs.cn^
 ||okmjd.com^
 ||olwsx.com^
 ||onekeyedu.com^
@@ -2304,7 +2312,9 @@ ubmcmm.baidustatic.com
 ||piilvhtu.cn^
 ||pingtaiba.asia^
 ||plkmd.com^
+||pnrqz.xyz^
 ||pongsone.uno^
+||ppcwzry.cn^
 ||pqfgtp.cn^
 ||prudence.love^
 ||pxfeiws.cn^
@@ -2319,12 +2329,14 @@ ubmcmm.baidustatic.com
 ||qncphvc.cn^
 ||qnmvqdl.cn^
 ||qqwxi.xyz^
+||qrnmyn.cn^
 ||qsxfsp.shop^
 ||renxinghuan.com^
 ||rggtt.top^
 ||riy9qqfu.club^
 ||riy9qqfu.xyz^
 ||rizlhvb.cn^
+||rlojitu.xyz^
 ||rofvjko.cn^
 ||rowemfg.com^
 ||rqkfhquz.cn^
@@ -2370,6 +2382,7 @@ ubmcmm.baidustatic.com
 ||tertqm.cn^
 ||tianning.xyz^
 ||tmrhoe2.com^
+||tongsone.uno^
 ||topnfj.com^
 ||topnfq.com^
 ||topnfw.com^
@@ -2394,6 +2407,7 @@ ubmcmm.baidustatic.com
 ||vdzzauf.cn^
 ||veadmin.com^
 ||very010.com^
+||vfcwij.cn^
 ||vhlret.cn^
 ||viswcnb.cn^
 ||viuspbkmn.bar^
@@ -2413,6 +2427,7 @@ ubmcmm.baidustatic.com
 ||whoican.love^
 ||wiuspckmn.bar^
 ||wlhcb.cn^
+||wmmty.top^
 ||wnqzlw.xyz^
 ||wohuamanhua.com^
 ||wongsonc.uno^
@@ -2434,6 +2449,7 @@ ubmcmm.baidustatic.com
 ||xingyuanaigaowei.love^
 ||xinhuan.mobi^
 ||xinying.me^
+||xinyuejiayuan.com^
 ||xixhx.com^
 ||xmgdgo.cn^
 ||xmsrd.com^
@@ -2491,15 +2507,6 @@ ubmcmm.baidustatic.com
 ||zygaoshou888.cn^
 ||zygxy.online^
 ||zzycj.com^
-||qrnmyn.cn^
-||xinyuejiayuan.com^
-||tongsone.uno^
-||ojgtbs.cn^
-||eeoqsr.cn^
-||666735.xyz^
-||3dcn.me^
-||jhkj.work^
-||vfcwij.cn^
 .8ox.cn
 ##a[href$=".120ydrayy.com"]
 ##a[href*=".1956hl.com/"]
@@ -19679,6 +19686,7 @@ tigtag.com##div[id^="Show300x"]
 90bifen.com##div[id^="ShowTopAds_"]
 mail.126.com,mail.163.com##div[id^="_mail_popup_"]
 vod1769.com##div[id^="a"]
+jinbaodm.com##div[id^="a-loading"]
 ettoday.net##div[id^="abp"]
 makepolo.com,mycar168.com,mysteel.com,pchome.net,qz828.com,rjfcw.cn##div[id^="ad"]
 58.com,pcpop.com,phpernote.com##div[id^="ad_"]
@@ -32220,7 +32228,6 @@ _mongo_stats/
 ||hexagon-analytics.com^$third-party
 ||heyhelga.net^$third-party
 ||heylink.com^$third-party
-||heyloyalty.com^$third-party
 ||heystaks.com^$third-party
 ||hiconversion.com^$third-party
 ||hif.to^$third-party
@@ -51568,6 +51575,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||ddmcdn.com^*/adobe.visitor-$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||ddmcdn.com^*/comscore.streaming.$script,domain=ahctv.com|animalplanet.com|cookingchanneltv.com|destinationamerica.com|discovery.com|discoverylife.com|diynetwork.com|foodnetwork.com|hgtv.com|investigationdiscovery.com|motortrend.com|sciencechannel.com|tlc.com|travelchannel.com
 @@||decision.taplytics.com^$domain=royalbank.com
+@@||dev.visualwebsiteoptimizer.com/j.php$script,domain=wakefit.co
+@@||dev.visualwebsiteoptimizer.com/web/$script,domain=wakefit.co
 @@||developers.google.com/analytics/devguides/collection/analyticsjs/$~third-party,xmlhttprequest
 @@||digitalgov.gov/Universal-Federated-Analytics-Min.js?$script,domain=travel.state.gov
 @@||docodoco.jp^*/docodoco?key=$script,domain=nidec-copal-electronics.com
@@ -51630,7 +51639,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||google-analytics.com/plugins/ga/inpage_linkid.js$domain=westernunion.com
 @@||googleoptimize.com/optimize.js$script,domain=inquirer.com|lodgecastiron.com|tentree.ca
 @@||googletagmanager.com/gtag/js$script,domain=carhartt-wip.com|cbslocal.com|honeystinger.com|kawasaki.com|livongo.com|m.putlocker.how|mediaite.com|schwab.com|toptal.com|virginplus.ca
-@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=acehardware.com|ads.spotify.com|aeromexico.com|atptour.com|backcountry.com|bsa-whitelabel.com|carhartt-wip.com|ccleaner.com|chipotle.com|complex.com|crello.com|cyclingnews.com|cypress.io|doodle.com|easternbank.com|flytap.com|formula1.com|fortune.com|gorillamind.com|gumtree.com|harveynorman.co.nz|harveynorman.com.au|jn.pt|kedronparkhotel.com.au|level.travel|mcgeeandco.com|nflgamepass.com|nordvpn.com|nourison.com|oakandfort.com|petsathome.com|pioneer.eu|primeoak.co.uk|qrcode-monkey.com|royalbank.com|scotsman.com|soundguys.com|stressless.com|support.creative.com|trademe.co.nz|tumi.com|uniqlo.com|uqr.to
 @@||gov.au/Scripts/ga.js$script,~third-party
 @@||gstatic.com^*/firebase-performance-standalone.js$script,domain=flightradar24.com
 @@||guce.advertising.com/collectIdentifiers$~third-party
@@ -51830,6 +51839,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||store.usps.com/media/js/metrics/metrics.js$~third-party
 @@||supertaxi.com/webclient/scripts/tracking/tracking.js$script,~third-party
 @@||support.brother.com^*/js/analytics.js$script,~third-party
+@@||survey.userneeds.com^$subdocument,domain=foreca.com|forecaweather.com
 @@||t.st/video/js/kGoogleAnalytics.js?$domain=thestreet.com
 @@||taboola.com/libtrc/impl.$script,domain=businessinsider.com|insider.com
 @@||tag.aticdn.net^*/smarttag.js$domain=rte.ie
@@ -52111,7 +52121,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||nettix.fi^*_analytics.js$domain=nettiauto.com|nettikaravaani.com|nettikone.com|nettimokki.com|nettimoto.com|nettivaraosa.com
 @@||pelaaja.fi/sites/default/files/googleanalytics/analytics.js$~third-party
 @@||scdn.cxense.com/cx.js$script,domain=ksml.fi|savonsanomat.fi
-@@||userneeds.com^$domain=foreca.fi
+@@||survey.userneeds.com^$subdocument,domain=foreca.fi
 @@||widgets.spklw.com/v1/$xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|kaaoszine.fi|rumba.fi|soundi.fi|tilt.fi
 @@||widgets.sprinklecontent.com/v2/$script,xmlhttprequest,domain=como.fi|episodi.fi|fum.fi|inferno.fi|rumba.fi|soundi.fi|tilt.fi
 !---------- Hebrew ----------
