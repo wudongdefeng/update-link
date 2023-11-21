@@ -18,7 +18,7 @@ if match:
         print("SSR content saved successfully.")
 else:
     print("SSR content not found.")
-cat ssr  
+
 # Find the SSR section
 pattern1 = r'>🚀免费v2rayN节点列表\s+```([\s\S]*?)```'
 match1 = re.search(pattern1, content)
