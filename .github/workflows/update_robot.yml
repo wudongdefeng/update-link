@@ -13,10 +13,7 @@ name: Auto update data
 # or an event configuration map that schedules a workflow or restricts the 
 # execution of a workflow to specific files, tags, or branch changes. 
 # For a list of available events, see "Events that trigger workflows."
-on:
-  push:
-    branches:
-      - master
+on:  
   schedule:
     - cron: '30 11/12 * * *'
 
