@@ -59,6 +59,7 @@ jobs:
           cd scripts
           curl -O https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md
           python ssr.py
+          rm README.md
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
