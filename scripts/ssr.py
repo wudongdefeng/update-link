@@ -1,5 +1,5 @@
 import re
-curl -O https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md
+
 # Read the file
 with open('README.md', 'r') as file:
     content = file.read()
