@@ -14,10 +14,7 @@ name: Auto update data
 # execution of a workflow to specific files, tags, or branch changes. 
 # For a list of available events, see "Events that trigger workflows."
 on:
-  push:
-    branches:
-      - master
-  schedule:
+    schedule:
     - cron: '30 11/12 * * *'
 
 # A workflow run is made up of one or more jobs. 
@@ -56,8 +53,9 @@ jobs:
           # Since there's a default, this is typically not supplied by the user.
           # token: # optional, default is ${{ github.token }}
       - name: Download files
-        run: |
+        run: |        
           cd scripts
+          curl -O https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md
           python ssr.py
       - name: Commit files
         run: |
