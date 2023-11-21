@@ -57,7 +57,7 @@ jobs:
       - name: Download files
         run: |        
           cd scripts
-          curl -O https://raw.githubusercontent.com/tolinkshare/freenode/main/README.md
+          curl -O https://raw.githubusercontent.com/freefq/free/master/README.md
           python ssr.py
           rm README.md
       - name: Commit files
