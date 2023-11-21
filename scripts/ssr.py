@@ -10,7 +10,7 @@ pattern1 = r'v2ray\s+```([\s\S]*?)```'
 match1 = re.search(pattern1, content)
 
 # Extract the SSR content
-if match:
+if match1:
     v2ray_content = match1.group(1)
     v2ray_content = re.sub(r'v2ray\s+|```', '', v2ray_content)
     v2ray_content = re.sub(r'^\s*\n', '', v2ray_content)
