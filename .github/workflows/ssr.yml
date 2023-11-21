@@ -13,9 +13,11 @@ name: Auto update data
 # or an event configuration map that schedules a workflow or restricts the 
 # execution of a workflow to specific files, tags, or branch changes. 
 # For a list of available events, see "Events that trigger workflows."
+
 on:
-    schedule:
+    schedule:    
     - cron: '30 11/12 * * *'
+    workflow_dispatch:
 
 # A workflow run is made up of one or more jobs. 
 # Jobs run in parallel by default. To run jobs sequentially, 
