@@ -11,6 +11,7 @@ match = re.search(pattern, content)
 # Extract the SSR content
 if match:
     ssr_content = match.group(1)
+    ssr_content = re.sub(r'>🚀免费SSR节点列表\s+|```', '', ssr_content)
     # Save the content to a file named "ssr"
     with open('ssr', 'w') as ssr_file:
         ssr_file.write(ssr_content)
@@ -25,6 +26,7 @@ match1 = re.search(pattern1, content)
 # Extract the SSR content
 if match:
     v2ray_content = match1.group(1)
+    v2ray_content = re.sub(r'>🚀免费SSR节点列表\s+|```', '', v2ray_content)
     # Save the content to a file named "ssr"
     with open('v2ray', 'w') as ssr_file:
         ssr_file.write(v2ray_content)
